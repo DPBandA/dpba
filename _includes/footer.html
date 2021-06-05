@@ -10,16 +10,21 @@
             <div class="col-md-4">
                 <h3><i class="fa fa-heart"></i> Socialize</h3>
                 <div id="social-icons">
-                   
                     {% if site.twitter_link %}
                     <a href="{{ site.twitter_link }}" class="btn-group">
                         <span style="color: seashell;" class="fa fa-twitter"></span>
                     </a>
                     {% endif %}
-                    
+
                     {% if site.facebook_link %}
                     <a href="{{ site.facebook_link }}" class="btn-group">
                         <span style="color: seashell;" class="fa fa-facebook"></span>
+                    </a>
+                    {% endif %}
+                    
+                    {% if site.github_link %}
+                    <a href="{{ site.github_link }}" class="btn-group">
+                        <span style="color: seashell;" class="fa fa-github"></span>
                     </a>
                     {% endif %}
                 </div>

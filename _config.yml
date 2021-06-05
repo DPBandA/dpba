@@ -24,12 +24,12 @@ company_name: D P Bennett & Associates
 address_line: Kingston, Jamaica
 telephone_number: 876-289-1644
 fax_number: 
-company_email: mail@dpbennett.com.jm
-google_map: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144
+company_email: info@dpbennett.com.jm
 
 # Social Link
-facebook_link: http://www.facebook.com
-twitter_link: http://www.twitter.com/DesmondPBennett
+facebook_link: https://www.facebook.com/desmond.bennett.7731/
+twitter_link: https://www.twitter.com/DesmondPBennett
+github_link: https://github.com/DPBandA
 
 # Build settings
 markdown: kramdown

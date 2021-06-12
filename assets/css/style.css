@@ -458,7 +458,7 @@ p.blog-text{
 }
 .services-group{
     padding: 10px;
-    background:#061F20;
+    background: darkblue; /*#061F20;*/
     color: white;
 }
 .service-icon{
@@ -493,7 +493,7 @@ footer{
     margin-top:40px;
     left: 0;
     right: 0;
-    background: black;
+    background: blue;
     bottom: 0px;
 }
 

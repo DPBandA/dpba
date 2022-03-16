@@ -1,45 +1,38 @@
-<!-- Footer -->
-<footer> 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h3><i class="fa fa-external-link"></i> Links</h3>               
-                <p><a href="https://ict.dpbennett.com.jm/">
-                        <span style="color: seashell;">ICT Blog</span>
-                    </a></p>
-                <p><a href="https://jmts.dpbennett.com.jm/">
-                        <span style="color: seashell;">JMTS</span>
-                    </a></p> 
-            </div>
-            <div class="col-md-4">
-                <h3><i class="fa fa-heart"></i> Socialize</h3>
-                <div id="social-icons">
-                    {% if site.twitter_link %}
-                    <a href="{{ site.twitter_link }}" class="btn-group">
-                        <span style="color: seashell;" class="fa fa-twitter"></span>
-                    </a>
-                    {% endif %}
-
-                    {% if site.facebook_link %}
-                    <a href="{{ site.facebook_link }}" class="btn-group">
-                        <span style="color: seashell;" class="fa fa-facebook"></span>
-                    </a>
-                    {% endif %}
-
-                    {% if site.github_link %}
-                    <a href="{{ site.github_link }}" class="btn-group">
-                        <span style="color: seashell;" class="fa fa-github"></span>
-                    </a>
-                    {% endif %}
-                </div>
-            </div>    
+<footer>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ffffff" fill-opacity="1"
+          d="M0,256L120,234.7C240,213,480,171,720,165.3C960,160,1200,192,1320,208L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+    </path>
+    </svg>
+    <section class="links container">
+        <div class="logo">
+            <img src="./media/logo.png" alt="">
+            <p>© 2022, All Rights Reserved.</p>
         </div>
-    </div>
-
-    <div class="copyright text center">
-        <p>&copy; Copyright {{ site.time | date: '%Y' }}, 
-            <a href="/">
-                <span style="color: seashell;">D P Bennett & Associates</span>
-            </a>
-    </div>
+        <div class="qlinks">
+            <h2>Quick Links</h2>
+            <ul>
+                <li>Home</li>
+                <li>Packages</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="lglinks">
+            <h2>Legal Stuff</h2>
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+                <li>Terms & Condition</li>
+            </ul>
+        </div>
+        <div class="social">
+            <h2>Social Media</h2>
+            <ul>
+                <li><i class="bi bi-twitter"></i>Twitter</li>
+                <li><i class="bi bi-instagram"></i>Instagram</li>
+                <li><i class="bi bi-youtube"></i>Youtube</li>
+            </ul>
+        </div>
+    </section>
 </footer>
+<script src="./js/main.js"></script>

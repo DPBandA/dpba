@@ -1,6 +1,10 @@
 @import url(./global.css);
 @import url(./utility.css);
 
+header {    
+    background-color: lightblue;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,7 +21,7 @@
 .d-menu ul li {
     padding: 2rem 2rem;
     color: var(--theme-text-dull);
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     font-weight: 600;
 }
 

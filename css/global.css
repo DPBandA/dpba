@@ -20,5 +20,6 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 10px;    
+    background-image: radial-gradient(#d3f0fd, white);
 }

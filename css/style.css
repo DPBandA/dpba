@@ -3,6 +3,7 @@
 
 header {
     background-color: white;
+    background-image: radial-gradient(#d3f0fd, white);
 }
 
 .navbar {
@@ -174,7 +175,7 @@ header {
 .growth {
     background-color: var(--theme-section-bg);
     border-radius: 24px;
-    margin: 10rem auto 5rem auto;
+    margin: 0rem auto 5rem auto;
     font-size: 2rem;
     padding: 2rem 2rem;
 }
@@ -206,7 +207,7 @@ header {
 }
 
 .growth .info {
-    margin-top: 5rem;
+    margin-top: 0rem;
     text-align: center;
 }
 
@@ -227,14 +228,14 @@ header {
     color: var(--theme-text-long);
 }
 
-.qualities {
+.services {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 7rem auto 10rem auto;
 }
 
-.qualities div {
+.services div {
     width: 250px;
     background-color: #ffffff;
     margin: 1rem;
@@ -245,11 +246,11 @@ header {
     flex-direction: column;
 }
 
-.qualities p {
+.services p {
     margin-top: 2rem;
 }
 
-.qualities .icon {
+.services .icon {
     background-color: #0081EB;
     width: 70px;
     height: 70px;
@@ -261,32 +262,32 @@ header {
     align-self: center;
 }
 
-.qualities .icon:hover {
+.services .icon:hover {
     transform: scale(1.1);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.qualities .icon1 {
+.services .icon1 {
     background-color: #D3E7FE;
 }
 
-.qualities .icon2 {
+.services .icon2 {
     background-color: #FFF3CC;
 }
 
-.qualities .icon3 {
+.services .icon3 {
     background-color: #FEE8D1;
 }
 
-.qualities .icon4 {
+.services .icon4 {
     background-color: #D5FCDD;
 }
 
-.qualities .title {
+.services .title {
     font-weight: 500;
 }
 
-.qualities .description {
+.services .description {
     font-size: 1.6rem;
     color: var(--theme-text-long);
 }
@@ -392,6 +393,7 @@ header {
 
 footer {
     background-color: var(--theme-section-bg);
+    background-image: radial-gradient(#d3f0fd, white);
 }
 
 footer .logo img {

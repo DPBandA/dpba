@@ -1,41 +1,38 @@
-<!-- Header -->
-<nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
-  <div class="container">
-  
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-
-    <a class="navbar-brand" href="index.html">
-        <img class="office-logo" src="../assets/ico/logo.png" alt="Office"></a>      
-  </div>
-
-  <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
-    <ul class="nav navbar-nav pull-right">
-      <li>
-          <a href="/"><span style="color: darkblue;">Home</span></a>
-      </li>
-      <li>
-          <a href="/about.html"><span style="color: darkblue;">About</span></a>
-      </li>
-      <li>
-          <a href="/blog.html"><span style="color: darkblue;">News</span></a>
-      </li>
-      <!--
-      <li>
-        <a href="/team.html">Team</a>
-      </li>
-      -->
-      <li>
-        <a href="/contact.html"><span style="color: darkblue;">Contact</span></a>
-      </li>
-    </ul>         
-  </div>
-  </div>
-</nav>
-
-<!-- End Header -->
+<header>
+    <div class="navbar container">
+        <div class="logo">
+            <a href="/">
+                <img src="../media/logo.png" alt="DPB&amp;A Logo" height="100" width="100">
+            </a>
+        </div>
+        <nav class="d-menu">
+            <ul>
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                <a href="/academy">
+                    <li>Academy</li>
+                </a>
+                <a href="/contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="m-menu">
+            <div onclick="show()">
+                <button class="hamburger bi bi-list"></button>
+            </div>
+            <ul class="m-navbar" id="m-navbar">
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                <a href="/academy">
+                    <li>Academy</li>
+                </a>
+                <a href="/contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+</header>

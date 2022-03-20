@@ -25,3 +25,6 @@ html {
     background-image: radial-gradient(#d3f0fd, white);
 }
 
+.centred {
+     text-align: center;
+}

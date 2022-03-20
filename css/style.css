@@ -10,6 +10,13 @@ header .logo img {
     cursor: pointer;
 }
 
+header .logo p {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -93,7 +100,7 @@ header .logo img {
     position: absolute;
     bottom: 100px;
     left: 50px;
-    z-index: -1;
+    z-index: 100;
     animation: bounce 4s ease 0.5s infinite alternate;
 }
 

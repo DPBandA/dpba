@@ -100,7 +100,7 @@ header .logo p {
     position: absolute;
     bottom: 100px;
     left: 50px;
-    z-index: 100;
+    z-index: 1;
     animation: bounce 4s ease 0.5s infinite alternate;
 }
 

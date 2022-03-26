@@ -7,7 +7,9 @@
     --theme-text-long: #718096;
     --theme-color: #0081EB;
     --theme-color-hover: #0062B3;
-    --theme-section-bg: #F6F7FC;
+    --theme-section-bg: #F6F7FC;    
+    --theme-gradient-color-1: blue;
+    --theme-gradient-color-2: lightblue;
 }
 
 * {

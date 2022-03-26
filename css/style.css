@@ -79,6 +79,21 @@ header .logo p {
     border-radius: 5px;
 }
 
+.btn {
+    background-color: var(--theme-gradient-color-1);
+    background-image: linear-gradient(160deg, var(--theme-gradient-color-1) 0%, var(--theme-gradient-color-2) 100%);
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    margin: 1rem 2rem auto 2rem;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--theme-gradient-color-2);
+    background-image: linear-gradient(160deg, var(--theme-gradient-color-2) 0%, var(--theme-gradient-color-1) 100%);
+}
+
 .m-menu .m-navbar .btn {
     margin-top: 2rem;
     text-align: center;
@@ -246,6 +261,61 @@ header .logo p {
     color: var(--theme-text-long);
 }
 
+/* Products */
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3rem auto 5rem auto;
+}
+
+.products div {
+    width: 250px;
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px rgb(140 152 164 / 13%);
+    display: flex;
+    flex-direction: column;
+}
+
+.products p {
+    margin-top: 2rem;
+}
+
+.products .icon {
+    background-color: var(--theme-color);
+    width: 70px;
+    height: 70px;
+    font-size: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.products .icon:hover {
+    transform: scale(1.1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.products .title {
+    font-weight: 500;
+    margin: auto 1rem auto 1rem;
+}
+
+.products .description {
+    font-size: 1.6rem;
+    color: var(--theme-text);
+    margin: 1rem 1rem auto 1rem;
+}
+
+/* Services */
+
 .services {
     display: flex;
     justify-content: space-evenly;
@@ -312,6 +382,19 @@ header .logo p {
 
 .working {
     padding-top: 10rem;
+}
+
+/* General content */
+
+.form-title {
+    font-weight:bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.form-description {
+    font-size: x-large;
+    margin-left: 3rem;
 }
 
 .content {

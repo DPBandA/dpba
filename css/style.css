@@ -271,22 +271,6 @@ header .logo p {
 
 /* JMTS */
 
-.get-jmts-form {
-    margin: auto 1rem auto 1rem;
-    font-size: 1.5rem;
-    border-radius: 30px;
-    background-image: radial-gradient(#d3f0fd, white);
-}
-
-.get-jmts-form p {
-    width: 350px;
-    margin: 1rem 1rem auto 1rem;
-}
-
-.get-jmts-form fieldset {
-    margin: auto 1rem auto 1rem;
-}
-
 .jmts {
     display: flex;
     justify-content: space-evenly;
@@ -296,13 +280,12 @@ header .logo p {
 
 .jmts div {
     width: 350px;
-    background-color: #ffffff;
     margin: 1rem;
     padding: 2rem 0;
     border-radius: 30px;
-    box-shadow: 0px 0px 35px rgb(140 152 164 / 13%);
     display: flex;
     flex-direction: column;
+    background-image: radial-gradient(#d3f0fd, white);
 }
 
 .jmts p {

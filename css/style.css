@@ -285,11 +285,17 @@ header .logo p {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(#d3f0fd, white);
+    background-image: radial-gradient(white, lightyellow);
+    justify-content: center;
+}
+
+.jmts div a {
+    margin: 2rem 6rem auto 6rem;
 }
 
 .jmts p {
     margin-top: 2rem;
+    text-align: center;
 }
 
 .jmts .icon {

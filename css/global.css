@@ -30,3 +30,8 @@ html {
 .centred {
      text-align: center;
 }
+
+.list-group-item {
+     background-image: radial-gradient(#d3f0fd, white);
+     border: none;
+}

@@ -59,15 +59,23 @@ title: D P Bennett & Associates
             </div>
             <p class="tag-line"  id="products">Our <span id="products">Products</span></p>   
             <div class="products">
-                {% for product in site.data.products %}
                 <div>
-                    <p class="title">{{product.name}}</p>
+                    <p class="title">Job Management & Tracking System (JMTS)</p>
                     <p class="description">
-                        {{product.description}}                        
+                        JMTS is an Enterprise Resource Planning (ERP) software that 
+                        can be used by organizations to manage day-to-day business 
+                        activities such as costing, human resource management, job management
+                        and reporting.
                     </p>
-                    <a href="{{product.link}}" class="btn">Get Details</a>
+                    <a href="/contact" class="btn">Get Details</a>
                 </div>
-                {% endfor %}                
+                <div>
+                    <p class="title">Client Management (CM)</p>
+                    <p class="description">
+                        CM is a Customer Relationship Management (CRM) system for managing your customers.
+                    </p>
+                    <a href="/contact" class="btn">Get Details</a>
+                </div>            
             </div>
 
         </div>

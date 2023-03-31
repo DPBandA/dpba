@@ -1,0 +1,12 @@
+## Products.
+---
+- name: Job Management & Tracking System (JMTS)
+  description: JMTS is an Enterprise Resource Planning (ERP) software that 
+               can be used by organizations to manage day-to-day business 
+               activities such as costing, human resource management, 
+               job management and reporting.
+  link: /contact 
+- name: Client Management (CM)
+  description: CM is a Customer Relationship Management (CRM) system for managing 
+               your customers.
+  link: /contact

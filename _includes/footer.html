@@ -12,6 +12,9 @@
                 <a href="/">
                     <li>Home</li>
                 </a>
+                <a href="/#products">
+                    <li>Products</li>
+                </a>
                 <a href="/#services">
                     <li>Services</li>
                 </a>
@@ -20,16 +23,29 @@
                 </a>
             </ul>
         </div>
-        <!--
+
+        <div class="qlinks">
+            <h2>Partners</h2>
+            <ul>
+                <a href="https://adassa.com.jm/" target="_blank">
+                    <li>Adassa Enterprises</li>
+                </a>
+                <a href="https://store.adassa.com.jm/" target="_blank">
+                    <li>Adassa Store</li>
+                </a>
+            </ul>    
+        </div>
+
         <div class="lglinks">
             <h2>Legal Stuff</h2>
             <ul>
-                <li>Privacy Policy</li>
-                <li>Cookie Policy</li>
+                <a href="/privacy_policy">
+                    <li>Privacy Policy</li>
+                </a>
                 <li>Terms & Condition</li>
             </ul>
         </div>
-        -->
+
         <div class="social">
             <h2>Social</h2>
             <ul>
@@ -46,14 +62,10 @@
                 {% endif %}
             </ul>
         </div>
-        <div class="qlinks">
-            <h2>Copyright</h2>
-            <ul>
-            <a href="/">
-                <li>© D P Bennett & Associates</li>
-            </a>
-            </ul>    
-        </div>
+
+    </section>
+    <section class="container">
+        <a href="/"><li>© {{ site.time | date: '%Y' }} D P Bennett & Associates</li></a>
     </section>
 </footer>
-<script src="../assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>

@@ -7,7 +7,8 @@
     <link rel="icon" href="/assets/media/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">  
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <!-- Google Sign In -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>    
     <script>
         function handleSignIn(response) {
             console.log("Encoded JWT ID token: " + response.credential);
@@ -16,12 +17,12 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZN34H1795"></script>
     <script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-gtag('config', 'G-2ZN34H1795');
+        gtag('config', 'G-2ZN34H1795');
     </script>
 </head>

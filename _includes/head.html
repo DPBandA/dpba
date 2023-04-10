@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">  
     <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+        function handleSignIn(response) {
+            console.log("Encoded JWT ID token: " + response.credential);
+        }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZN34H1795"></script>
     <script>

@@ -5,8 +5,8 @@
                can be used by organizations to manage day-to-day business 
                activities such as costing, human resource management, 
                job management and reporting.
-  link: /contact 
+  link: /jmts 
 - name: Client Management (CM)
   description: CM is a Customer Relationship Management (CRM) system for managing 
                your customers.
-  link: /contact
+  link: /cm

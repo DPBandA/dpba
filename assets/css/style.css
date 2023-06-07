@@ -132,15 +132,7 @@ header .logo p {
 }
 
 .introduction .main-line {
-    font-weight: 700;
-    color: var(--theme-text);
-    font-size: 4.6rem;
-    margin-bottom: 0rem;
-    position: relative;
-}
-
-.introduction .jmts-main-line {
-    font-weight: 700;
+    font-weight: 600;
     color: var(--theme-text);
     font-size: 3rem;
     margin-bottom: 0rem;
@@ -270,6 +262,14 @@ header .logo p {
 }
 
 /* JMTS */
+
+.introduction .jmts-main-line {
+    font-weight: 600;
+    color: var(--theme-text);
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    position: relative;
+}
 
 .jmts {
     display: flex;

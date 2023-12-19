@@ -1,7 +1,7 @@
 # Site Information
 title: D P Bennett & Associates
-description: This is the D P Bennett & Associates coporate website.
-baseurl: /
+description: This is the D P Bennett & Associates corporate website.
+baseurl: ""
 url: "https://dpbennett.com.jm"
 
 # Company Information
@@ -31,3 +31,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+permalink: /:categories/:title/
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+

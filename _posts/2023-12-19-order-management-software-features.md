@@ -1,6 +1,14 @@
 ---
 layout: post
-author: jill
+author: Desmond Bennett
+title: Order Management Software Features
+description: 
+date: 2023-12-19
+categories:
+- Order Management
+- Job Management
+img: bg-2.png
+thumb: bg-2.png
 ---
 
 A banana is an edible fruit – botanically a berry – produced by several

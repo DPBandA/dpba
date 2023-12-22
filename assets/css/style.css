@@ -85,8 +85,8 @@ header .logo p {
     background-image: linear-gradient(160deg, var(--theme-gradient-color-1) 0%, var(--theme-gradient-color-2) 100%);
     border: none;
     border-radius: 20px;
-    font-size: 2rem;
-    margin: 1rem 2rem auto 2rem;
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 
 .btn:hover {
@@ -611,15 +611,10 @@ footer .bi-youtube {
     margin-bottom: 40px;
 }
 
-.hline {
-    border-bottom: 2px solid;
-}
-
-.hline-w {
-    border-bottom: 2px solid #ffffff;
-    margin-bottom: 25px;
-}
-
 .blog-section {
      margin: 2rem auto;
+}
+
+.post-feature-image {
+    width: 200px;
 }

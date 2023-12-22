@@ -1,6 +1,7 @@
 ---
 layout: default-layout
 title: Blog
+description: This is the DPB&A blog.
 ---
 
 <div class="container blog-section">
@@ -12,12 +13,13 @@ title: Blog
             {% for post in site.posts %}
             <!-- Blog Post -->
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <img class="img-fluid mb-3" 
-                     width="120"                     
+                <img class="img-fluid mb-3 post-feature-image" 
                      src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
             </a>
-            <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-            <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h2 class="ctitle">{{ post.title }}</h2>
+            </a>
+            <p><em>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</em></p>
             {{ post.excerpt }}
             <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
             <div class="hline"></div>

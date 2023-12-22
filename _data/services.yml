@@ -3,20 +3,8 @@
 - title: Web Application Development
   icon: bi bi-globe
   description: We develop web applications for intranet and client facing purposes.
-  link: /contact 
+  link: /web-application-development 
 - title: Mobile Application Development
   icon: bi bi-phone
   description: We develop cross-platform mobile apps for business and scientific purposes.
-  link: /contact
-- title: Desktop Application Development
-  icon: bi bi-display
-  description: We develop business and scientific desktop applications that feature various technologies.
-  link: /contact  
-- title: Metrology & Testing
-  icon: bi bi-rulers
-  description: We offer consultancy and contract services in energy and ac/dc metrology and testing.
-  link: /contact  
-- title: Product Development
-  icon: bi bi-bicycle
-  description: We offer services in the research and development of electronic and mechanical products.
-  link: /contact   
+  link: /mobile-application-development

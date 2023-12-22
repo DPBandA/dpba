@@ -7,6 +7,9 @@
                job management and reporting.
   link: /jmts 
 - name: Client Management (CM)
-  description: CM is a Customer Relationship Management (CRM) system for managing 
-               your customers.
+  description: CM is a Customer Relationship Management (CRM) system that manages 
+               your customer interactions, streamlines sales, and enhances 
+               relationships by centralizing customer data, facilitating 
+               communication, and optimizing business processes for improved 
+               customer satisfaction and retention.
   link: /cm

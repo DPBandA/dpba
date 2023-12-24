@@ -121,6 +121,14 @@ a.anchor{
     font-size: 1.5em;
 }
 
+.font-size-1em {
+    font-size: 1em;
+}
+
+.font-size-1-2em {
+    font-size: 1.2em;
+}
+
 .hline {
     border-bottom: 2px solid;
     margin-bottom: 4px;

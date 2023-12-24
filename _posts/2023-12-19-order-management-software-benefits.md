@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-layout
 author: Desmond Bennett
 title: Order Management Software Benefits
 description: This article presents the benefits of an Order Management Software (OMS).

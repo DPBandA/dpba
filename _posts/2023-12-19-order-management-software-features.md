@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-layout
 author: Desmond Bennett
 title: Order Management Software Features
 description: This article presents the features of an Order Management Software (OMS).

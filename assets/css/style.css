@@ -612,9 +612,14 @@ footer .bi-youtube {
 }
 
 .blog-section {
-     margin: 2rem auto;
+    margin: 2rem auto;
 }
 
 .post-feature-image {
     width: 200px;
+}
+
+/* Bootstrap customization */
+.navbar-nav .nav-item .nav-link {
+    color: darkblue;
 }

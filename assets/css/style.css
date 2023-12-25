@@ -442,12 +442,12 @@ header .logo p {
 
 .form-title {
     font-weight:bold;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
 }
 
 .form-description {
-    font-size: x-large;
+    font-size: large;
     margin-left: 3rem;
 }
 
@@ -599,11 +599,11 @@ footer .bi-youtube {
 }
 
 .feedback-form {
-    font-size: 2rem;
+    font-size: large;
 }
 
 .form-control {
-    font-size: 2rem;
+    font-size: large;
 }
 
 .spacing {

@@ -1,0 +1,170 @@
+I"<div class="container blog-section font-size-1-5em">
+    <div class="row">
+
+        <!-- BLOG POSTS LIST -->
+        <div class="col-lg-8">
+
+            
+            <!-- Blog Post -->
+            <a href="/financial%20accounting/gnucash/">
+                <img class="img-fluid mb-3 post-feature-image" src="/assets/media/blog/GnuCash-Logo.png" />
+            </a>
+            <a href="/financial%20accounting/gnucash/">
+                <h2 class="ctitle">GnuCash - The Features and Benefits for Small Business Accounting</h2>
+            </a>
+            <p><em>Dec 25, 2023. | by Desmond Bennett</em></p>
+            <p>In the dynamic landscape of small businesses, efficient financial management is 
+the cornerstone of success. The need for accurate and reliable accounting tools 
+has never been more pronounced, and one open-source solution has been gaining 
+traction for its powerful features and user-friendly interface — GnuCash. 
+In this article, we will delve into the features and benefits that make 
+GnuCash a standout choice for small businesses seeking a robust accounting solution.</p>
+
+
+            <p><a href="/financial%20accounting/gnucash/">[Read More]</a></p>
+            <div class="hline"></div>
+
+            <div class="spacing"></div>
+            
+            <!-- Blog Post -->
+            <a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">
+                <img class="img-fluid mb-3 post-feature-image" src="/assets/media/blog/JMTSLogo.svg" />
+            </a>
+            <a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">
+                <h2 class="ctitle">Introduction to the Job Management &amp; Tracking System (JMTS)</h2>
+            </a>
+            <p><em>Dec 20, 2023. | by Desmond Bennett</em></p>
+            <p>In the fast-paced and ever-evolving landscape of business, efficiency and 
+organization are paramount. As enterprises strive to streamline their 
+operations, the need for robust and comprehensive software solutions becomes 
+increasingly apparent. Enter the Job Management &amp; Tracking System (JMTS), a 
+cutting-edge software that combines the agility of job (order) management 
+with the comprehensive features of an Enterprise Resource Planning (ERP) system. 
+This revolutionary tool can transform the way organizations operate, providing 
+a seamless and integrated approach to managing tasks, clients, and resources.</p>
+
+
+            <p><a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">[Read More]</a></p>
+            <div class="hline"></div>
+
+            <div class="spacing"></div>
+            
+            <!-- Blog Post -->
+            <a href="/order%20management/order-management-software-benefits/">
+                <img class="img-fluid mb-3 post-feature-image" src="/assets/media/blog/oms-flow.png" />
+            </a>
+            <a href="/order%20management/order-management-software-benefits/">
+                <h2 class="ctitle">Order Management Software Benefits</h2>
+            </a>
+            <p><em>Dec 19, 2023. | by Desmond Bennett</em></p>
+            <p>
+    In the dynamic landscape of modern business, effective order management is 
+    crucial for success. As companies expand and engage in complex operations, the 
+    need for a robust Order Management Software (OMS) becomes increasingly apparent. 
+    An OMS acts as the central nervous system of an organization, orchestrating the 
+    flow of orders from initiation to fulfillment. In this article, we will delve 
+    into the manifold benefits that businesses can reap by adopting 
+    an Order Management Software.
+</p>
+
+            <p><a href="/order%20management/order-management-software-benefits/">[Read More]</a></p>
+            <div class="hline"></div>
+
+            <div class="spacing"></div>
+            
+            <!-- Blog Post -->
+            <a href="/order%20management/order-management-software-features/">
+                <img class="img-fluid mb-3 post-feature-image" src="/assets/media/blog/oms-flow.png" />
+            </a>
+            <a href="/order%20management/order-management-software-features/">
+                <h2 class="ctitle">Order Management Software Features</h2>
+            </a>
+            <p><em>Dec 18, 2023. | by Desmond Bennett</em></p>
+            <p>
+    In the dynamic landscape of e-commerce and retail, managing orders efficiently 
+    is a critical aspect of ensuring customer satisfaction and business success. 
+    This is where Order Management Software (OMS) steps in as a powerful tool that 
+    streamlines and optimizes the entire order processing workflow. In this article, 
+    we'll delve into the key features of an OMS that make it an indispensable asset 
+    for businesses of all sizes.
+</p>
+
+            <p><a href="/order%20management/order-management-software-features/">[Read More]</a></p>
+            <div class="hline"></div>
+
+            <div class="spacing"></div>
+            
+
+        </div><!--/col-lg-8 -->
+
+        <div class="col-lg-4">
+    
+    <h4>Recent Posts</h4>
+    <div class="hline"></div>
+    <ul class="popular-posts">
+        
+        <li>
+            <p><a href="/financial%20accounting/gnucash/">GnuCash - The Features and Benefits for Small Business Accounting</a></p>
+            <em>Posted on 25 Dec 2023</em>
+            <br />
+            <em>This is an introduction to GnuCash open-source accounting software for small businesses.</em>
+        </li>
+        
+        <li>
+            <p><a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">Introduction to the Job Management &amp; Tracking System (JMTS)</a></p>
+            <em>Posted on 20 Dec 2023</em>
+            <br />
+            <em>This is an introduction to the Job Mananagement &amp; Tracking System (JMTS) which is an enterprise resource planning and job (order) management software.</em>
+        </li>
+        
+        <li>
+            <p><a href="/order%20management/order-management-software-benefits/">Order Management Software Benefits</a></p>
+            <em>Posted on 19 Dec 2023</em>
+            <br />
+            <em>This article presents the benefits of an Order Management Software (OMS).</em>
+        </li>
+        
+        <li>
+            <p><a href="/order%20management/order-management-software-features/">Order Management Software Features</a></p>
+            <em>Posted on 18 Dec 2023</em>
+            <br />
+            <em>This article presents the features of an Order Management Software (OMS).</em>
+        </li>
+        
+    </ul>
+
+    <div class="spacing"></div>    
+
+    <h4>Categories</h4>
+    <div class="hline"></div>
+    <ul class="categories">
+        
+        <li>
+            <a href="/category/#Order Management">
+                Order management
+            </a>
+            <!-- <span class="badge badge-theme pull-right">3</span> -->
+        </li>
+        
+        <li>
+            <a href="/category/#Enterprise Resource Planning">
+                Enterprise resource planning
+            </a>
+            <!-- <span class="badge badge-theme pull-right">1</span> -->
+        </li>
+        
+        <li>
+            <a href="/category/#Financial Accounting">
+                Financial accounting
+            </a>
+            <!-- <span class="badge badge-theme pull-right">1</span> -->
+        </li>
+        
+    </ul>
+
+</div>
+
+
+    </div><!--/row -->    
+</div>
+:ET

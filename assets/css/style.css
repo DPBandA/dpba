@@ -448,7 +448,6 @@ header .logo p {
 
 .form-description {
     font-size: large;
-    margin-left: 3rem;
 }
 
 .content {
@@ -603,7 +602,7 @@ footer .bi-youtube {
 }
 
 .form-control {
-    font-size: large;
+    font-size: medium;
 }
 
 .spacing {

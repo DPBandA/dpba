@@ -18,11 +18,7 @@ A person who intends to use the the JMTS must be authenticated and become an **a
 2.	When the Login Dialog appears, type a valid username and password then press the Login button as shown in the Figure 1 below.
 3.	A person whose login attempt is validated will be directed to their 'Home' page of the JMTS. 
 
-<table border="0px hidden white">
- <tr>
-    <td><em>Figure 1: Login Dialog</em></td>
- </tr>
- <tr>
-    <td><img src="https://github.com/DPBandA/job-management-tracking-system/blob/master/doc/images/jmts/login%20dialog.png?raw=true" alt="Login Dialog" /></td>
- </tr>
-</table>
+_Figure 1: Login Dialog_
+<br/>
+<img src="https://github.com/DPBandA/job-management-tracking-system/blob/master/doc/images/jmts/login%20dialog.png?raw=true" 
+     alt="Login Dialog" width="100%"/>

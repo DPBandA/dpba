@@ -1,0 +1,14 @@
+I"<h1 id="user-authentication">User Authentication</h1>
+
+<p>A person who intends to use the the JMTS must be authenticated and become an <strong>authorized user</strong> by doing the following:</p>
+
+<ol>
+  <li>Open a browser then enter the JMTS address (e.g. http://localhost/jmts) into the address field of the browser.</li>
+  <li>When the Login Dialog appears, type a valid username and password then press the Login button as shown in the Figure 1 below.</li>
+  <li>A person whose login attempt is validated will be directed to their ‘Home’ page of the JMTS.</li>
+</ol>
+
+<p><em>Figure 1: Login Dialog</em>
+<br />
+<img src="https://github.com/DPBandA/job-management-tracking-system/blob/master/doc/images/jmts/login%20dialog.png?raw=true" alt="Login Dialog" width="75%" /></p>
+:ET

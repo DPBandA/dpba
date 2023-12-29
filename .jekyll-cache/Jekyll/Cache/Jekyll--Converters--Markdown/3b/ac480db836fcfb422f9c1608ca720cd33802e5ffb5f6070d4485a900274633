@@ -1,4 +1,4 @@
-I"R<h1 id="user-authentication">User Authentication</h1>
+I"!<h1 id="user-authentication">User Authentication</h1>
 
 <p>A person who intends to use the the JMTS must be authenticated and become an <strong>authorized user</strong> by doing the following:</p>
 
@@ -16,4 +16,8 @@
     <td><img src="https://github.com/DPBandA/job-management-tracking-system/blob/master/doc/images/jmts/login%20dialog.png?raw=true" alt="Login Dialog" /></td>
  </tr>
 </table>
+
+<p><em>Figure 1: Login Dialog</em>
+<br />
+<img src="https://github.com/DPBandA/job-management-tracking-system/blob/master/doc/images/jmts/login%20dialog.png?raw=true" alt="Login Dialog" width="100%" /></p>
 :ET

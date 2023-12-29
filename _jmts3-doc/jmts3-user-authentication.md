@@ -21,4 +21,4 @@ A person who intends to use the the JMTS must be authenticated and become an **a
 _Figure 1: Login Dialog_
 <br/>
 <img src="https://github.com/DPBandA/job-management-tracking-system/blob/master/doc/images/jmts/login%20dialog.png?raw=true" 
-     alt="Login Dialog" width="100%"/>
+     alt="Login Dialog" width="75%"/>

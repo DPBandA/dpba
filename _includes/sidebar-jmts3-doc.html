@@ -1,0 +1,13 @@
+<div class="col-lg-4">    
+
+    {% include search-lunr.html %}
+    <div class="hline"></div>
+    <h2  class="centred">Content</h2>
+    <ul class="list-group list-group-flush">
+        {% for doc in site.jmts3-doc %}
+        <li class="list-group-item">
+            <h3  class="centred"><a href="{{ doc.url }}">{{ doc.title }}</a></h3> 
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -16,6 +16,10 @@ twitter_link: https://twitter.com/DPB_and_A
 github_link: https://github.com/DPBandA
 linkedin_link: https://www.linkedin.com/in/desmond-bennett-a00b60289/
 
+collections:
+  jmts3-doc:
+      output: true
+
 # Build settings
 markdown: kramdown
 plugins:

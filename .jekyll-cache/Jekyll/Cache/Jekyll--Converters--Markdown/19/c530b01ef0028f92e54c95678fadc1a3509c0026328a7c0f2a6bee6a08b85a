@@ -1,0 +1,22 @@
+I"R<h1 id="introduction">Introduction</h1>
+
+<h2 id="what-is-the-jmts">What is the JMTS</h2>
+<p>The Job Management and Tracking System (JMTS) is a web based enterprise application that is used to facilitate the processes of recording, editing, viewing, reporting and tracking data for any job undertaken by an organization.</p>
+
+<h2 id="definitions">Definitions</h2>
+
+<h3 id="required-field">Required field</h3>
+<p>This is the term used to refer to any form field which must be filled out with data and should never be left blank. The field label for these fields are shown in bold font.</p>
+
+<h3 id="authorized-user">Authorized User</h3>
+<p>This is the term used to describe an entity that is permitted to log into the JMTS with a valid username and password.</p>
+
+<h3 id="job">Job</h3>
+<p>A job refers to any official task that an individual undertakes on behalf of his/her organization.</p>
+
+<h3 id="job-entry">Job Entry</h3>
+<p>This is the term used to refer to a combination of data that is saved in the JMTS and represent only one job. Each job entry is uniquely identified by a specially generated code called a Job Number. However, it is possible for an authorized user to enter a Job Number in any format.</p>
+
+<h3 id="job-sample">Job Sample</h3>
+<p>A Job Sample refers to data entered into the JMTS for each sample of product(s) associated with a job.</p>
+:ET

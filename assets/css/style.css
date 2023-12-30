@@ -444,6 +444,7 @@ header .logo p {
     font-weight:bold;
     font-size: x-large;
     text-align: center;
+    margin-top: 1em;
 }
 
 .form-description {

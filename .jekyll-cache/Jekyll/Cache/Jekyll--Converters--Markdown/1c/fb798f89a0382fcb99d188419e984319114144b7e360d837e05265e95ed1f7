@@ -1,4 +1,4 @@
-I"¡þ<div class="container">
+I"¥þ<div class="container">
     <div class="row mt-5">
         <div class="col-lg-8">
             <h1>Mobile Application Development</h1>
@@ -152,7 +152,7 @@ var documents = [{
     "id": 8,
     "url": "http://localhost:4000/jmts3-doc",
     "title": "JMTS3 User Guide",
-    "body": "  This is the User Guide for the Job Management &amp; Tracking System version 3  (JMTS v3). Here you will comprehensive documentation about the use of  this Enterprise Resource Planning (ERP) software.   This User Guide is continuously updated to reflect the latest information about  the features and use cases of the JMTS. "
+    "body": "  This is the User Guide for the Job Management &amp; Tracking System version 3  (JMTS v3). Here you will get comprehensive documentation about the use of  this Enterprise Resource Planning (ERP) software.   This User Guide is continuously updated to reflect the latest information about  the features and use cases of the JMTS. "
     }, {
     "id": 9,
     "url": "http://localhost:4000/mobile-application-development/",

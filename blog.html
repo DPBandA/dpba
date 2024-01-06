@@ -20,7 +20,7 @@ description: This is the DPB&A blog.
                      src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
             </a>
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <h2 class="ctitle">{{ post.title }}</h2>
+                <h1 class="ctitle">{{ post.title }}</h1>
             </a>
             <p><em>{{ post.date | date: "%b %-d, %Y" }}. | by {{ post.author }}</em></p>
             {{ post.excerpt }}

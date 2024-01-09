@@ -1,4 +1,4 @@
-I"дт<div class="container blog-section font-size-1-5em">
+I"вт<div class="container blog-section font-size-1-5em">
     <h1 class="form-title">Blog</h1>
     
     <div class="row">
@@ -12,7 +12,7 @@
                 <img class="img-fluid mb-3 post-feature-image" alt="GnuCash - The Features and Benefits for Small Business Accounting" src="/assets/media/blog/GnuCash-Logo.png" />
             </a>
             <a href="/financial%20accounting/gnucash/">
-                <h2 class="ctitle">GnuCash - The Features and Benefits for Small Business Accounting</h2>
+                <h1 class="ctitle">GnuCash - The Features and Benefits for Small Business Accounting</h1>
             </a>
             <p><em>Dec 25, 2023. | by Desmond Bennett</em></p>
             <p>In the dynamic landscape of small businesses, efficient financial management is 
@@ -33,7 +33,7 @@ GnuCash a standout choice for small businesses seeking a robust accounting solut
                 <img class="img-fluid mb-3 post-feature-image" alt="Introduction to the Job Management &amp; Tracking System (JMTS)" src="/assets/media/blog/JMTSLogo.svg" />
             </a>
             <a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">
-                <h2 class="ctitle">Introduction to the Job Management &amp; Tracking System (JMTS)</h2>
+                <h1 class="ctitle">Introduction to the Job Management &amp; Tracking System (JMTS)</h1>
             </a>
             <p><em>Dec 20, 2023. | by Desmond Bennett</em></p>
             <p>In the fast-paced and ever-evolving landscape of business, efficiency and 
@@ -56,7 +56,7 @@ a seamless and integrated approach to managing tasks, clients, and resources.</p
                 <img class="img-fluid mb-3 post-feature-image" alt="Order Management Software Benefits" src="/assets/media/blog/oms-flow.png" />
             </a>
             <a href="/order%20management/order-management-software-benefits/">
-                <h2 class="ctitle">Order Management Software Benefits</h2>
+                <h1 class="ctitle">Order Management Software Benefits</h1>
             </a>
             <p><em>Dec 19, 2023. | by Desmond Bennett</em></p>
             <p>
@@ -79,7 +79,7 @@ a seamless and integrated approach to managing tasks, clients, and resources.</p
                 <img class="img-fluid mb-3 post-feature-image" alt="Order Management Software Features" src="/assets/media/blog/oms-flow.png" />
             </a>
             <a href="/order%20management/order-management-software-features/">
-                <h2 class="ctitle">Order Management Software Features</h2>
+                <h1 class="ctitle">Order Management Software Features</h1>
             </a>
             <p><em>Dec 18, 2023. | by Desmond Bennett</em></p>
             <p>
@@ -114,7 +114,7 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/blog/",
     "title": "Blog",
-    "body": "  Blog                  {% for post in site. posts %}                    &lt;img class= img-fluid mb-3 post-feature-image            alt= {{ post. title }}            src= {{  /assets/media/blog/  | prepend: site. baseurl }}{{ post. img }} &gt;                    {{ post. title }}:             {{ post. date | date:  %b %-d, %Y  }}. | by {{ post. author }}       {{ post. excerpt }}      [Read More]                   {% endfor %}        {% include sidebar. html %}    "
+    "body": "  Blog                  {% for post in site. posts %}                    &lt;img class= img-fluid mb-3 post-feature-image            alt= {{ post. title }}            src= {{  /assets/media/blog/  | prepend: site. baseurl }}{{ post. img }} &gt;                    {{ post. title }}            {{ post. date | date:  %b %-d, %Y  }}. | by {{ post. author }}       {{ post. excerpt }}      [Read More]                   {% endfor %}        {% include sidebar. html %}    "
     }, {
     "id": 2,
     "url": "http://localhost:4000/category/",

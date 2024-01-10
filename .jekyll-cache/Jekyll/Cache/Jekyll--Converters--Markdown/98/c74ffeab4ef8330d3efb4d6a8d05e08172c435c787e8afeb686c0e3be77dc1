@@ -1,0 +1,94 @@
+I"º<main>
+    <section class="introduction">
+
+        <div class="intro-section container">
+            <div class="intro-text">           
+                <h1>Our Mission</h1>
+                <p class="description">
+                    To provide solutions to all types of business and engineering problems.
+                </p>
+                <a href="/contact" class="btn">Contact Us</a>
+
+            </div>
+            <div class="jmts" style="height: 200px;">
+                <div class="centred">                    
+                    <h1>Introducing JMTS</h1>                    
+                    <p class="description">
+                        The Job Management &amp; Tracking System (JMTS) version 4.0
+                        was released.
+                    </p>
+                    <a href="/jmts" class="btn">Get details</a>
+                </div>
+            </div>                    
+        </div>        
+    </section>
+    <section class="growth container">
+        <div class="info">            
+            <p class="tag-line"><span id="services">Services</span></p>            
+            <div class="services">
+                
+                <div>
+                    <p class="icon">
+                        <a href="/web-application-development"><i class="bi bi-globe"></i></a>
+                    </p>
+                    <p class="title">
+                        <a href="/web-application-development">Web Application Development</a>
+                    </p>
+                    <p class="description">
+                        We develop web applications for intranet and client facing purposes.
+                    </p>
+                </div>                
+                
+                <div>
+                    <p class="icon">
+                        <a href="/mobile-application-development"><i class="bi bi-phone"></i></a>
+                    </p>
+                    <p class="title">
+                        <a href="/mobile-application-development">Mobile Application Development</a>
+                    </p>
+                    <p class="description">
+                        We develop cross-platform mobile apps for business and scientific purposes.
+                    </p>
+                </div>                
+                                
+            </div>
+            <p class="tag-line" id="products"><span id="products">Products</span></p>   
+            <div class="products">
+                
+                <div>
+                    <p class="title">
+                        <a href="/jmts">Job Management &amp; Tracking System (JMTS)</a>
+                    </p>
+                    <p class="description">
+                        JMTS is an Enterprise Resource Planning (ERP) software that can be used by organizations to manage day-to-day business activities such as costing, human resource management, job management and reporting.                        
+                    </p>
+                    <a href="/jmts" class="btn">Get details</a>
+                </div>
+                
+                <div>
+                    <p class="title">
+                        <a href="/cm">Client Management (CM)</a>
+                    </p>
+                    <p class="description">
+                        CM is a Customer Relationship Management (CRM) system that manages your customer interactions, streamlines sales, and enhances relationships by centralizing customer data, facilitating communication, and optimizing business processes for improved customer satisfaction and retention.                        
+                    </p>
+                    <a href="/cm" class="btn">Get details</a>
+                </div>
+                
+                <div>
+                    <p class="title">
+                        <a href="https://amzn.to/48Qwy6x">Gnucash 2.4 Small Business Accounting - Beginner's Guide</a>
+                    </p>
+                    <p class="description">
+                        This book is a comprehensive beginner's guide that teaches you to use GnuCash from scratch with jargon-free step-by-step tutorials packed with tips.There are multiple choice questions to make learning more interesting and additional challenges thrown at the more adventurous user for a deep grasp of the topic.                        
+                    </p>
+                    <a href="https://amzn.to/48Qwy6x" class="btn">Get details</a>
+                </div>
+                                
+            </div>
+        </div>
+    </section>
+
+
+</main>
+:ET

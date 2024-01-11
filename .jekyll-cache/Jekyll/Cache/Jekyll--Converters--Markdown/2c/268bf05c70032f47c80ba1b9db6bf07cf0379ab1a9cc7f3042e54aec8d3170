@@ -1,4 +1,4 @@
-I"º<main>
+I"È<main>
     <section class="introduction">
 
         <div class="intro-section container">
@@ -73,16 +73,6 @@
                         CM is a Customer Relationship Management (CRM) system that manages your customer interactions, streamlines sales, and enhances relationships by centralizing customer data, facilitating communication, and optimizing business processes for improved customer satisfaction and retention.                        
                     </p>
                     <a href="/cm" class="btn">Get details</a>
-                </div>
-                
-                <div>
-                    <p class="title">
-                        <a href="https://amzn.to/48Qwy6x">Gnucash 2.4 Small Business Accounting - Beginner's Guide</a>
-                    </p>
-                    <p class="description">
-                        This book is a comprehensive beginner's guide that teaches you to use GnuCash from scratch with jargon-free step-by-step tutorials packed with tips.There are multiple choice questions to make learning more interesting and additional challenges thrown at the more adventurous user for a deep grasp of the topic.                        
-                    </p>
-                    <a href="https://amzn.to/48Qwy6x" class="btn">Get details</a>
                 </div>
                                 
             </div>

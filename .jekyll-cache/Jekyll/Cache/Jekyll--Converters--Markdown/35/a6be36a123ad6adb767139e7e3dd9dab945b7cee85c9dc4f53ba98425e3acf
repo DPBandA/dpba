@@ -1,102 +1,71 @@
-I"�<div class="container blog-section font-size-1-5em">
-    <h1 class="form-title">Blog</h1>
-    
+I"5�<div class="container  blog-section font-size-1-5em">
+    <h1 class="form-title">Categories</h1>
+
     <div class="row">
-
-        <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
-
+            <!-- BLOG POSTS LIST -->
             
-            <!-- Blog Post -->
-            <a href="/financial%20accounting/gnucash/">
-                <img class="img-fluid mb-3 post-feature-image" alt="GnuCash - The Features and Benefits for Small Business Accounting" src="/assets/media/blog/GnuCash-Logo.png" />
-            </a>
-            <a href="/financial%20accounting/gnucash/">
-                <h1 class="ctitle">GnuCash - The Features and Benefits for Small Business Accounting</h1>
-            </a>
-            <p><em>Dec 25, 2023. | by Desmond Bennett</em></p>
-            <p>In the dynamic landscape of small businesses, efficient financial management is 
-the cornerstone of success. The need for accurate and reliable accounting tools 
-has never been more pronounced, and one open-source solution has been gaining 
-traction for its powerful features and user-friendly interface — GnuCash. 
-In this article, we will delve into the features and benefits that make 
-GnuCash a standout choice for small businesses seeking a robust accounting solution.</p>
-
-
-            <p><a href="/financial%20accounting/gnucash/">[Read More]</a></p>
+            <a class="anchor" id="Order Management"></a>
+            <h4>Order Management</h4>
             <div class="hline"></div>
+            <ul class="popular-posts">
+                
+                <li>
+                    <p><a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">Introduction to the Job Management &amp; Tracking System (JMTS)</a></p>
+                    <em>Posted on 20 Dec 2023</em>
+                    <br />
+                    <em>This is an introduction to the Job Mananagement &amp; Tracking System (JMTS) which is an enterprise resource planning and job (order) management software.</em>
+                </li>
 
-            <div class="spacing"></div>
+                
+                <li>
+                    <p><a href="/order%20management/order-management-software-benefits/">Order Management Software Benefits</a></p>
+                    <em>Posted on 19 Dec 2023</em>
+                    <br />
+                    <em>This article presents the benefits of an Order Management Software (OMS).</em>
+                </li>
+
+                
+                <li>
+                    <p><a href="/order%20management/order-management-software-features/">Order Management Software Features</a></p>
+                    <em>Posted on 18 Dec 2023</em>
+                    <br />
+                    <em>This article presents the features of an Order Management Software (OMS).</em>
+                </li>
+
+                
+            </ul>
             
-            <!-- Blog Post -->
-            <a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">
-                <img class="img-fluid mb-3 post-feature-image" alt="Introduction to the Job Management &amp; Tracking System (JMTS)" src="/assets/media/blog/JMTSLogo.svg" />
-            </a>
-            <a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">
-                <h1 class="ctitle">Introduction to the Job Management &amp; Tracking System (JMTS)</h1>
-            </a>
-            <p><em>Dec 20, 2023. | by Desmond Bennett</em></p>
-            <p>In the fast-paced and ever-evolving landscape of business, efficiency and 
-organization are paramount. As enterprises strive to streamline their 
-operations, the need for robust and comprehensive software solutions becomes 
-increasingly apparent. Enter the Job Management &amp; Tracking System (JMTS), a 
-cutting-edge software that combines the agility of job (order) management 
-with the comprehensive features of an Enterprise Resource Planning (ERP) system. 
-This revolutionary tool can transform the way organizations operate, providing 
-a seamless and integrated approach to managing tasks, clients, and resources.</p>
-
-
-            <p><a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">[Read More]</a></p>
+            <a class="anchor" id="Enterprise Resource Planning"></a>
+            <h4>Enterprise Resource Planning</h4>
             <div class="hline"></div>
+            <ul class="popular-posts">
+                
+                <li>
+                    <p><a href="/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/">Introduction to the Job Management &amp; Tracking System (JMTS)</a></p>
+                    <em>Posted on 20 Dec 2023</em>
+                    <br />
+                    <em>This is an introduction to the Job Mananagement &amp; Tracking System (JMTS) which is an enterprise resource planning and job (order) management software.</em>
+                </li>
 
-            <div class="spacing"></div>
+                
+            </ul>
             
-            <!-- Blog Post -->
-            <a href="/order%20management/order-management-software-benefits/">
-                <img class="img-fluid mb-3 post-feature-image" alt="Order Management Software Benefits" src="/assets/media/blog/oms-flow.png" />
-            </a>
-            <a href="/order%20management/order-management-software-benefits/">
-                <h1 class="ctitle">Order Management Software Benefits</h1>
-            </a>
-            <p><em>Dec 19, 2023. | by Desmond Bennett</em></p>
-            <p>
-    In the dynamic landscape of modern business, effective order management is 
-    crucial for success. As companies expand and engage in complex operations, the 
-    need for a robust Order Management Software (OMS) becomes increasingly apparent. 
-    An OMS acts as the central nervous system of an organization, orchestrating the 
-    flow of orders from initiation to fulfillment. In this article, we will delve 
-    into the manifold benefits that businesses can reap by adopting 
-    an Order Management Software.
-</p>
-
-            <p><a href="/order%20management/order-management-software-benefits/">[Read More]</a></p>
+            <a class="anchor" id="Financial Accounting"></a>
+            <h4>Financial Accounting</h4>
             <div class="hline"></div>
+            <ul class="popular-posts">
+                
+                <li>
+                    <p><a href="/financial%20accounting/gnucash/">GnuCash - The Features and Benefits for Small Business Accounting</a></p>
+                    <em>Posted on 25 Dec 2023</em>
+                    <br />
+                    <em>This is an introduction to GnuCash open-source accounting software for small businesses.</em>
+                </li>
 
-            <div class="spacing"></div>
+                
+            </ul>
             
-            <!-- Blog Post -->
-            <a href="/order%20management/order-management-software-features/">
-                <img class="img-fluid mb-3 post-feature-image" alt="Order Management Software Features" src="/assets/media/blog/oms-flow.png" />
-            </a>
-            <a href="/order%20management/order-management-software-features/">
-                <h1 class="ctitle">Order Management Software Features</h1>
-            </a>
-            <p><em>Dec 18, 2023. | by Desmond Bennett</em></p>
-            <p>
-    In the dynamic landscape of e-commerce and retail, managing orders efficiently 
-    is a critical aspect of ensuring customer satisfaction and business success. 
-    This is where Order Management Software (OMS) steps in as a powerful tool that 
-    streamlines and optimizes the entire order processing workflow. In this article, 
-    we'll delve into the key features of an OMS that make it an indispensable asset 
-    for businesses of all sizes.
-</p>
-
-            <p><a href="/order%20management/order-management-software-features/">[Read More]</a></p>
-            <div class="hline"></div>
-
-            <div class="spacing"></div>
-            
-
         </div><!--/col-lg-8 -->
 
         <div class="col-lg-4">    
@@ -114,7 +83,7 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/blog/",
     "title": "Blog",
-    "body": "  Blog                  {% for post in site. posts %}                    &lt;img class= img-fluid mb-3 post-feature-image            alt= {{ post. title }}            src= {{  /assets/media/blog/  | prepend: site. baseurl }}{{ post. img }} &gt;                    {{ post. title }}            {{ post. date | date:  %b %-d, %Y  }}. | by {{ post. author }}       {{ post. excerpt }}      [Read More]                   {% endfor %}        {% include sidebar. html %}    "
+    "body": "  Blog                                                          GnuCash - The Features and Benefits for Small Business Accounting            Dec 25, 2023. | by Desmond Bennett       In the dynamic landscape of small businesses, efficient financial management is the cornerstone of success. The need for accurate and reliable accounting tools has never been more pronounced, and one open-source solution has been gaining traction for its powerful features and user-friendly interface — GnuCash. In this article, we will delve into the features and benefits that make GnuCash a standout choice for small businesses seeking a robust accounting solution.       [Read More]                                                           Introduction to the Job Management &amp; Tracking System (JMTS)            Dec 20, 2023. | by Desmond Bennett       In the fast-paced and ever-evolving landscape of business, efficiency and organization are paramount. As enterprises strive to streamline their operations, the need for robust and comprehensive software solutions becomes increasingly apparent. Enter the Job Management &amp; Tracking System (JMTS), a cutting-edge software that combines the agility of job (order) management with the comprehensive features of an Enterprise Resource Planning (ERP) system. This revolutionary tool can transform the way organizations operate, providing a seamless and integrated approach to managing tasks, clients, and resources.       [Read More]                                                           Order Management Software Benefits            Dec 19, 2023. | by Desmond Bennett         In the dynamic landscape of modern business, effective order management is   crucial for success. As companies expand and engage in complex operations, the   need for a robust Order Management Software (OMS) becomes increasingly apparent.   An OMS acts as the central nervous system of an organization, orchestrating the   flow of orders from initiation to fulfillment. In this article, we will delve   into the manifold benefits that businesses can reap by adopting   an Order Management Software.       [Read More]                                                           Order Management Software Features            Dec 18, 2023. | by Desmond Bennett         In the dynamic landscape of e-commerce and retail, managing orders efficiently   is a critical aspect of ensuring customer satisfaction and business success.   This is where Order Management Software (OMS) steps in as a powerful tool that   streamlines and optimizes the entire order processing workflow. In this article,   we'll delve into the key features of an OMS that make it an indispensable asset   for businesses of all sizes.       [Read More]                                           Recent Posts:                   GnuCash - The Features and Benefits for Small Business Accounting       Posted on 25 Dec 2023            This is an introduction to GnuCash open-source accounting software for small businesses.                   Introduction to the Job Management &amp; Tracking System (JMTS)       Posted on 20 Dec 2023            This is an introduction to the Job Mananagement &amp; Tracking System (JMTS) which is an enterprise resource planning and job (order) management software.                   Order Management Software Benefits       Posted on 19 Dec 2023            This article presents the benefits of an Order Management Software (OMS).                   Order Management Software Features       Posted on 18 Dec 2023            This article presents the features of an Order Management Software (OMS).                 Categories:                           Order management                                      Enterprise resource planning                                      Financial accounting                          "
     }, {
     "id": 2,
     "url": "http://localhost:4000/category/",
@@ -174,7 +143,7 @@ var documents = [{
     "id": 13,
     "url": "http://localhost:4000/financial%20accounting/gnucash/",
     "title": "GnuCash - The Features and Benefits for Small Business Accounting",
-    "body": "2023/12/25 - In the dynamic landscape of small businesses, efficient financial management is the cornerstone of success. The need for accurate and reliable accounting tools has never been more pronounced, and one open-source solution has been gaining traction for its powerful features and user-friendly interface — GnuCash. In this article, we will delve into the features and benefits that make GnuCash a standout choice for small businesses seeking a robust accounting solution. Understanding GnuCash: GnuCash is an open-source, cross-platform accounting software designed for individuals and small businesses. With a focus on simplicity and flexibility, GnuCash empowers users to manage their finances with ease, providing a comprehensive set of features without the hefty price tag associated with many proprietary accounting software options. Key Features of GnuCash: Double-Entry Accounting: At the heart of GnuCash lies the robust double-entry accounting system. This method ensures that every financial transaction has equal and opposite effects in at least two different accounts, ensuring accuracy and reliability in financial reporting. Small businesses can benefit from the transparency and accountability provided by this foundational feature. Multi-Currency Support: In an increasingly globalized business environment, dealing with multiple currencies is a common challenge. GnuCash addresses this seamlessly, allowing users to record transactions in various currencies, making it an ideal choice for businesses involved in international trade or with clients and suppliers in different parts of the world. Flexible Reporting: GnuCash offers a range of customizable reports, enabling users to gain insights into their financial data easily. From income statements and balance sheets to cash flow reports, businesses can tailor these reports to suit their specific needs. This flexibility is invaluable for decision-makers who require a quick overview or a detailed analysis of their financial standing. Budgeting and Forecasting: Small businesses often operate on tight budgets, making effective financial planning crucial. GnuCash provides robust budgeting and forecasting tools, allowing businesses to set financial goals, track expenses, and make informed decisions to steer the company towards growth. Bank and Investment Account Integration: GnuCash simplifies the reconciliation process by allowing users to connect their bank and investment accounts directly. This feature not only saves time but also minimizes the chances of errors, ensuring that financial data is up-to-date and accurate. Security and Data Protection: Security is a top priority for any business, especially when dealing with financial data. GnuCash employs encryption and password protection to safeguard sensitive information, providing users with peace of mind regarding the confidentiality and integrity of their financial records. Open Source Community Support: Being open-source, GnuCash benefits from a vibrant community of developers and users. This means regular updates, bug fixes, and the availability of a wealth of online resources. Small businesses can tap into this collective knowledge totroubleshoot issues, discover new features, and optimize their use of the software.                             Gnucash 2. 4 Small Business Accounting - Beginner's Guide                      Buy now                  Benefits of GnuCash for Small Businesses: Cost-Effective Solution: Perhaps one of the most significant advantages of GnuCash for small businesses is its cost-effectiveness. As an open-source software, GnuCash is freely available for download and use, eliminating the need for costly licensing fees. This makes it an attractive option for businesses with limited financial resources. User-Friendly Interface: GnuCash is designed with user accessibility in mind. The intuitive interface makes it easy for individuals, even those without extensive accounting backgrounds, to navigate the software efficiently. This simplicity reduces the learning curve, enabling small business owners to focus on their core operations rather than spending excessive time mastering accounting software. Scalability: Small businesses are dynamic entities that evolve over time. GnuCash’s scalability allows businesses to grow without outgrowing their accounting software. Whether a business expands its operations, adds new products or services, or enters new markets, GnuCash can adapt to changing financial needs. Community Support and Documentation: The open-source nature of GnuCash results in a robust community of users and developers. The availability of extensive documentation and online forums means that users can easily find solutions to common issues, share tips and tricks, and stay informed about updates and improvements. Data Portability: GnuCash utilizes the XML file format, ensuring that data remains portable and can be easily transferred between systems. This feature is particularly valuable for businesses that may need to migrate to a different accounting solution in the future or collaborate with external accountants or auditors. Customization for Specific Business Needs: Every business is unique, and GnuCash recognizes this by providing a high degree of customization. Whether it’s creating tailored reports, adding specific account categories, or integrating plugins, businesses can adapt GnuCash to meet their individual requirements. Conclusion: In conclusion, GnuCash stands out as a powerful and cost-effective accounting solution for small businesses. Its feature-rich design, coupled with the benefits of open-source software, makes it an attractive choice for businesses aiming to streamline their financial management processes. By embracing GnuCash, small businesses can gain control over their finances, make informed decisions, and pave the way for sustained growth in an ever-changing business landscape. Check out GnuCash today. "
+    "body": "2023/12/25 - In the dynamic landscape of small businesses, efficient financial management is the cornerstone of success. The need for accurate and reliable accounting tools has never been more pronounced, and one open-source solution has been gaining traction for its powerful features and user-friendly interface — GnuCash. In this article, we will delve into the features and benefits that make GnuCash a standout choice for small businesses seeking a robust accounting solution. Understanding GnuCash: GnuCash is an open-source, cross-platform accounting software designed for individuals and small businesses. With a focus on simplicity and flexibility, GnuCash empowers users to manage their finances with ease, providing a comprehensive set of features without the hefty price tag associated with many proprietary accounting software options. Key Features of GnuCash: Double-Entry Accounting: At the heart of GnuCash lies the robust double-entry accounting system. This method ensures that every financial transaction has equal and opposite effects in at least two different accounts, ensuring accuracy and reliability in financial reporting. Small businesses can benefit from the transparency and accountability provided by this foundational feature. Multi-Currency Support: In an increasingly globalized business environment, dealing with multiple currencies is a common challenge. GnuCash addresses this seamlessly, allowing users to record transactions in various currencies, making it an ideal choice for businesses involved in international trade or with clients and suppliers in different parts of the world. Flexible Reporting: GnuCash offers a range of customizable reports, enabling users to gain insights into their financial data easily. From income statements and balance sheets to cash flow reports, businesses can tailor these reports to suit their specific needs. This flexibility is invaluable for decision-makers who require a quick overview or a detailed analysis of their financial standing. Budgeting and Forecasting: Small businesses often operate on tight budgets, making effective financial planning crucial. GnuCash provides robust budgeting and forecasting tools, allowing businesses to set financial goals, track expenses, and make informed decisions to steer the company towards growth. Bank and Investment Account Integration: GnuCash simplifies the reconciliation process by allowing users to connect their bank and investment accounts directly. This feature not only saves time but also minimizes the chances of errors, ensuring that financial data is up-to-date and accurate. Security and Data Protection: Security is a top priority for any business, especially when dealing with financial data. GnuCash employs encryption and password protection to safeguard sensitive information, providing users with peace of mind regarding the confidentiality and integrity of their financial records. Open Source Community Support: Being open-source, GnuCash benefits from a vibrant community of developers and users. This means regular updates, bug fixes, and the availability of a wealth of online resources. Small businesses can tap into this collective knowledge totroubleshoot issues, discover new features, and optimize their use of the software.                   Benefits of GnuCash for Small Businesses: Cost-Effective Solution: Perhaps one of the most significant advantages of GnuCash for small businesses is its cost-effectiveness. As an open-source software, GnuCash is freely available for download and use, eliminating the need for costly licensing fees. This makes it an attractive option for businesses with limited financial resources. User-Friendly Interface: GnuCash is designed with user accessibility in mind. The intuitive interface makes it easy for individuals, even those without extensive accounting backgrounds, to navigate the software efficiently. This simplicity reduces the learning curve, enabling small business owners to focus on their core operations rather than spending excessive time mastering accounting software. Scalability: Small businesses are dynamic entities that evolve over time. GnuCash’s scalability allows businesses to grow without outgrowing their accounting software. Whether a business expands its operations, adds new products or services, or enters new markets, GnuCash can adapt to changing financial needs. Community Support and Documentation: The open-source nature of GnuCash results in a robust community of users and developers. The availability of extensive documentation and online forums means that users can easily find solutions to common issues, share tips and tricks, and stay informed about updates and improvements. Data Portability: GnuCash utilizes the XML file format, ensuring that data remains portable and can be easily transferred between systems. This feature is particularly valuable for businesses that may need to migrate to a different accounting solution in the future or collaborate with external accountants or auditors. Customization for Specific Business Needs: Every business is unique, and GnuCash recognizes this by providing a high degree of customization. Whether it’s creating tailored reports, adding specific account categories, or integrating plugins, businesses can adapt GnuCash to meet their individual requirements. Conclusion: In conclusion, GnuCash stands out as a powerful and cost-effective accounting solution for small businesses. Its feature-rich design, coupled with the benefits of open-source software, makes it an attractive choice for businesses aiming to streamline their financial management processes. By embracing GnuCash, small businesses can gain control over their finances, make informed decisions, and pave the way for sustained growth in an ever-changing business landscape. Check out GnuCash today. "
     }, {
     "id": 14,
     "url": "http://localhost:4000/order%20management/enterprise%20resource%20planning/introduction-to-the-jmts/",
@@ -309,6 +278,7 @@ function lunr_search(term) {
 </div>
 
 
-    </div><!--/row -->    
+    </div><!--/row -->
 </div>
+<!--/container -->
 :ET

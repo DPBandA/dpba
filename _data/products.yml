@@ -7,13 +7,4 @@
                activities such as costing, human resource management, 
                job management and reporting.
   link: /jmts 
-  image:
-- name: Client Management (CM)
-  categories: Customer Relationship Management
-  description: CM is a Customer Relationship Management (CRM) system that manages 
-               your customer interactions, streamlines sales, and enhances 
-               relationships by centralizing customer data, facilitating 
-               communication, and optimizing business processes for improved 
-               customer satisfaction and retention.
-  link: /cm
   image: 

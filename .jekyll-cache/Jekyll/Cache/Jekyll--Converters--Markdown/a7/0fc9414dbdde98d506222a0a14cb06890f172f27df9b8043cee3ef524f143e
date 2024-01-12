@@ -1,14 +1,8 @@
----
-layout: default-layout
-title: Job Management & Tracking System (JMTS)
-description: The JMTS is a stable and supported software for the enterprise which is designed for mission critical production systems.
----
-
-<main>
+I"�<main>
     <section class="introduction">
         <div class="intro-section container">
             <div class="intro-text"> 
-                <h1 class="centred">Job Management & Tracking System (JMTS)</h1>                
+                <h1 class="centred">Job Management &amp; Tracking System (JMTS)</h1>                
                 <p class="font-size-1-5em">
                     Ready. Stable. Supported.
                 </p>
@@ -16,15 +10,15 @@ description: The JMTS is a stable and supported software for the enterprise whic
                     If you’re planning to use the JMTS in production 
                     environments, you’ve come to the right place.
                 </p>
-                <br>
+                <br />
                 <p class="font-size-1-5em">
                     The JMTS is a stable and supported software for the 
                     enterprise which is designed for mission critical production systems.
                 </p>
-                <br>
+                <br />
 
                 <p class="font-size-1-5em">
-                    <em>Features & Benefits</em>
+                    <em>Features &amp; Benefits</em>
                 </p>
 
                 <div class="font-size-1-5em">
@@ -35,7 +29,7 @@ description: The JMTS is a stable and supported software for the enterprise whic
                         <li class="list-group-item">&bullet; Security alerts and fixes</li>
                     </ul>   
                 </div>
-                <br/>
+                <br />
                 <div class="font-size-1-5em">
                     <a href="/contact">Contact Us</a> today to get started.
                 </div>
@@ -54,3 +48,4 @@ description: The JMTS is a stable and supported software for the enterprise whic
         </div>        
     </section>
 </main>
+:ET

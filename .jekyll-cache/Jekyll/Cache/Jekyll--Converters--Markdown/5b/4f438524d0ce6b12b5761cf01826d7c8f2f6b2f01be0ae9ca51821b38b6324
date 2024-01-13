@@ -1,6 +1,5 @@
-I"8Ä<div class="container blog-section font-size-1-5em">
-    <h1 class="form-title">Blog</h1>
-    
+I"ßÃ<div class="container blog-section font-size-1-5em">
+       
     <div class="row">
 
         <!-- BLOG POSTS LIST -->
@@ -93,7 +92,7 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/blog/",
     "title": "Blog",
-    "body": "  Blog                  {% for post in site. posts %}                    &lt;img class= img-fluid mb-3 post-feature-image            alt= {{ post. title }}            src= {{  /assets/media/blog/  | prepend: site. baseurl }}{{ post. img }} &gt;                    {{ post. title }}            {{ post. date | date:  %b %-d, %Y  }}. | by {{ post. author }}       {{ post. excerpt }}      [Read More]                   {% endfor %}        {% include sidebar. html %}    "
+    "body": "                    {% for post in site. posts %}                    &lt;img class= img-fluid mb-3 post-feature-image            alt= {{ post. title }}            src= {{  /assets/media/blog/  | prepend: site. baseurl }}{{ post. img }} &gt;                    {{ post. title }}            {{ post. date | date:  %b %-d, %Y  }}. | by {{ post. author }}       {{ post. excerpt }}      [Read More]                   {% endfor %}        {% include sidebar. html %}    "
     }, {
     "id": 2,
     "url": "http://localhost:4000/category/",
@@ -108,7 +107,7 @@ var documents = [{
     "id": 4,
     "url": "http://localhost:4000/jmts/",
     "title": "Job Management & Tracking System (JMTS)",
-    "body": "                     Job Management &amp; Tracking System (JMTS)                          Ready. Stable. Supported.                           If youâ€™re planning to use the JMTS in production           environments, youâ€™ve come to the right place.                                   The JMTS is a stable and supported software for the           enterprise which is designed for mission critical production systems.                                   Features &amp; Benefits                                       &bullet; Always open source and production-ready            &bullet; Get support directly from Engineers            &bullet; Monthly releases, bug fixes, and patches            &bullet; Security alerts and fixes                                              Contact Us today to get started.                                       Introducing JMTS Training Course                      The JMTS Training Course is a comprehensive course that            will get you up to speed with using the JMTS in the quickest             possible time.                     Get started                                  "
+    "body": "                     Job Management &amp; Tracking System (JMTS)                          Ready. Stable. Supported.                           If youâ€™re planning to use the JMTS in production           environments, youâ€™ve come to the right place.                                   The JMTS is a stable and supported software for the           enterprise which is designed for mission critical production systems.                                   Features &amp; Benefits                                       &bullet; Always open source and production-ready            &bullet; Get support directly from Engineers            &bullet; Monthly releases, bug fixes, and patches            &bullet; Security alerts and fixes                                              Contact Us today to get started.                                       JMTS 3 User Guide                      The JMTS 3 User Guide will get you up to speed with using             version 3 of JMTS in the shortest possible time.                     Get started                                  "
     }, {
     "id": 5,
     "url": "http://localhost:4000/jmts/doc/",
@@ -123,7 +122,7 @@ var documents = [{
     "id": 7,
     "url": "http://localhost:4000/",
     "title": "D P Bennett & Associates",
-    "body": "                          Our Mission                  To provide solutions to all types of business and engineering problems.                 Contact Us                                        Introducing JMTS                                The Job Management &amp; Tracking System (JMTS) version 4. 0            was released.                     Get details                                                    Services                     {% for service in site. data. services %}                                                               {{service. title}}                                 {{service. description}}                                   {% endfor %}                    Products                {% for product in site. data. products %}                              {{product. name}}                                 {{product. description}}                                 Get details                {% endfor %}                    "
+    "body": "                          Our Mission                  To provide solutions to all types of business and engineering problems.                 Contact Us                                        Introducing JMTS                                The Job Management &amp; Tracking System (JMTS) version 3. 0            was released.                     Get details                                                    Services                     {% for service in site. data. services %}                                                               {{service. title}}                                 {{service. description}}                                   {% endfor %}                    Products                {% for product in site. data. products %}                              {{product. name}}                                 {{product. description}}                                 Get details                {% endfor %}                    "
     }, {
     "id": 8,
     "url": "http://localhost:4000/jmts3-doc",

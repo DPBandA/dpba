@@ -1,5 +1,13 @@
 ## Services.
 ---
+- title: Metrology &amp; Testing
+  icon: bi bi-rulers
+  description: We offer consultancy and contract services in energy and ac/dc metrology and testing.
+  link: /contact 
+- title: Product Development
+  icon: bi bi-bicycle
+  description: We offer services in the research and development of electronic and mechanical products.
+  link: /contact   
 - title: Web Application Development
   icon: bi bi-globe
   description: We develop web applications for intranet and client facing purposes.

@@ -1,4 +1,4 @@
-I";<main>
+I"Z<main>
     <section class="introduction">
 
         <div class="intro-section container">
@@ -26,6 +26,30 @@
         <div class="info">            
             <p class="tag-line"><span id="services">Services</span></p>            
             <div class="services">
+                
+                <div>
+                    <p class="icon">
+                        <a href="/contact"><i class="bi bi-globe"></i></a>
+                    </p>
+                    <p class="title">
+                        <a href="/contact">Metrology &amp; Testing</a>
+                    </p>
+                    <p class="description">
+                        We offer consultancy and contract services in energy and ac/dc metrology and testing.
+                    </p>
+                </div>                
+                
+                <div>
+                    <p class="icon">
+                        <a href="/contact"><i class="bi bi-globe"></i></a>
+                    </p>
+                    <p class="title">
+                        <a href="/contact">Product Development</a>
+                    </p>
+                    <p class="description">
+                        We offer services in the research and development of electronic and mechanical products.
+                    </p>
+                </div>                
                 
                 <div>
                     <p class="icon">

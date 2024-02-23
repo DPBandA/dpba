@@ -1,10 +1,4 @@
----
-layout: default-layout
-title: D P Bennett & Associates
-description: Welcome to the DPB&A company website!
----
-
-<main>
+I"ù	<main>
     <section class="introduction">
 
         <div class="intro-section container">
@@ -20,7 +14,7 @@ description: Welcome to the DPB&A company website!
                 <div class="centred">                    
                     <h1>Introducing JMTS</h1>                    
                     <p class="description">
-                        The Job Management & Tracking System (JMTS) version 3.0
+                        The Job Management &amp; Tracking System (JMTS) version 3.0
                         was released.
                     </p>
                     <a href="/jmts" class="btn">Get details</a>
@@ -46,7 +40,7 @@ description: Welcome to the DPB&A company website!
                 </div>                
                 {% endfor %}                
             </div>
-            <p class="tag-line"  id="products"><span id="products">Products</span></p>   
+            <p class="tag-line" id="products"><span id="products">Products</span></p>   
             <div class="products">
                 {% for product in site.data.products %}
                 <div>
@@ -68,3 +62,4 @@ description: Welcome to the DPB&A company website!
 
 
 </main>
+:ET

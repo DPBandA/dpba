@@ -1,6 +1,7 @@
 ## Products.
 ---
 - name: Job Management & Tracking System (JMTS)
+  icon: bi bi-tools
   categories: Order Management
   description: JMTS is an Enterprise Resource Planning (ERP) software that 
                can be used by organizations to manage day-to-day business 

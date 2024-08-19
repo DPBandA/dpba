@@ -11,8 +11,6 @@ img: JMTSLogo.svg
 thumb: JMTSLogo.svg
 ---
 
-Ingregral: $$ \int x^2 \, dx = \frac{x^3}{3} + C $$
-
 In the fast-paced and ever-evolving landscape of business, efficiency and 
 organization are paramount. As enterprises strive to streamline their 
 operations, the need for robust and comprehensive software solutions becomes 

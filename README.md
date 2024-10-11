@@ -8,4 +8,4 @@ The website of D P Bennett & Associates (DPB&amp;A)
 
 ## Development
 
-Go to the project directory and issue the command ` bundle exec jekyll serve`
+Go to the project directory and issue the command `bundle exec jekyll serve`

@@ -18,6 +18,8 @@ github_link: https://github.com/DPBandA
 collections:
   jmts3-doc:
       output: true
+  jmts-doc:
+      output: true    
 
 # Build settings
 markdown: kramdown

@@ -5,7 +5,8 @@ baseurl: ""
 url: "https://dpbennett.com.jm"
 
 # Company Information
-company_name: D P Bennett & Associates
+company_name: D P Bennett & Associates Ltd.
+company_abbrev: DPB&A
 address_line: Kingston
 country: Jamaica
 company_email: info@dpbennett.com.jm

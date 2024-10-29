@@ -1,0 +1,65 @@
+I"ù	<main>
+    <section class="introduction">
+
+        <div class="intro-section container">
+            <div class="intro-text">           
+                <h1>Our Mission</h1>
+                <p class="description">
+                    To provide solutions to all types of business and engineering problems.
+                </p>
+                <a href="/contact" class="btn">Contact Us</a>
+
+            </div>
+            <div class="jmts" style="height: 200px;">
+                <div class="centred">                    
+                    <h2>Introducing JMTS</h2>                    
+                    <p class="description">
+                        The Job Management &amp; Tracking System (JMTS) version 3.0
+                        was released.
+                    </p>
+                    <a href="/jmts" class="btn">Get details</a>
+                </div>
+            </div>                    
+        </div>        
+    </section>
+    <section class="growth container">
+        <div class="info">            
+            <p class="tag-line"><span id="services">Services</span></p>            
+            <div class="services">
+                {% for service in site.data.services %}
+                <div>
+                    <p class="icon">
+                        <a href="{{service.link}}"><i class="{{service.icon}}"></i></a>
+                    </p>
+                    <p class="title">
+                        <a href="{{service.link}}">{{service.title}}</a>
+                    </p>
+                    <p class="description">
+                        {{service.description}}
+                    </p>
+                </div>                
+                {% endfor %}                
+            </div>
+            <p class="tag-line" id="products"><span id="products">Products</span></p>   
+            <div class="products">
+                {% for product in site.data.products %}
+                <div>
+                    <p class="icon">
+                        <a href="{{product.link}}"><i class="{{product.icon}}"></i></a>
+                    </p>
+                    <p class="title">
+                        <a href="{{product.link}}">{{product.name}}</a>
+                    </p>
+                    <p class="description">
+                        {{product.description}}                        
+                    </p>
+                    <a href="{{product.link}}" class="btn">Get details</a>
+                </div>
+                {% endfor %}                
+            </div>
+        </div>
+    </section>
+
+
+</main>
+:ET

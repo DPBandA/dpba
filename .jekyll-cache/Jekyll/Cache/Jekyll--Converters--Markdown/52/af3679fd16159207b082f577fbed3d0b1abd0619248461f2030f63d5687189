@@ -1,12 +1,5 @@
----
-layout: jmts-doc-layout
-title: The Job Management & Tracking System (JMTS) User Guide.
-description: Welcome to the Job Management & Tracking System (JMTS) User Guide. Here you will find all you need to succeed with JMTS.
-permalink: /jmts-doc
----
-
-<p>
-    This is the User Guide for the Job Management & Tracking System (JMTS). 
+I"®<p>
+    This is the User Guide for the Job Management &amp; Tracking System (JMTS). 
     Here you will get comprehensive documentation about the use of this 
     Enterprise Resource Planning (ERP) software.
 </p>
@@ -19,3 +12,4 @@ permalink: /jmts-doc
 <p>
    The JMTS 3 User Guide can be found <a href="/jmts3-doc">here</a>. 
 </p>
+:ET

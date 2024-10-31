@@ -1,10 +1,4 @@
----
-layout: blog-layout
-title: Official company blog of D P Bennett & Associates Ltd.
-description: This is the D P Bennett & Associates Ltd. blog that contains informative and innovative posts for your business needs.
----
-
-<div class="container blog-section font-size-1-5em">
+I"<<div class="container blog-section font-size-1-5em">
     
     <h1>Blog</h1>
        
@@ -16,9 +10,9 @@ description: This is the D P Bennett & Associates Ltd. blog that contains inform
             {% for post in site.posts %}
             <!-- Blog Post -->
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <img class="img-fluid mb-3 post-feature-image" 
+                &lt;img class="img-fluid mb-3 post-feature-image" 
                      alt="{{ post.title }}"
-                     src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                     src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}"&gt;
             </a>
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <h2 class="ctitle">{{ post.title }}</h2>
@@ -37,3 +31,4 @@ description: This is the D P Bennett & Associates Ltd. blog that contains inform
 
     </div><!--/row -->    
 </div>
+:ET

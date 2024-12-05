@@ -41,3 +41,9 @@ plugins:
 permalink: /:categories/:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/media/logo.png"
+      description: "Welcome to the D P Bennett & Associates Ltd. website! We specialize in delivering cutting-edge engineering and information technology solutions."

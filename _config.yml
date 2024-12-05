@@ -45,5 +45,5 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "/assets/media/logo.png"
+      image: "https://dpbennett.com.jm/assets/media/logo.png"
       description: "Welcome to the D P Bennett & Associates Ltd. website! We specialize in delivering cutting-edge engineering and information technology solutions."

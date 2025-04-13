@@ -1,7 +1,7 @@
 <header>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-none container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
             <img src="/assets/media/logo.png" 
                  width="30" height="30"
                  class="d-inline-block align-top ml-4 mr-2" 
@@ -23,7 +23,7 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item font-size-1-5em" style="margin-right: 1.0em;">
-                    <a class="nav-link" href="/about">About</a>
+                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/about">About</a>
                 </li>
 
                 <li class="nav-item dropdown font-size-1-5em mr-4">
@@ -31,18 +31,18 @@
                         Support
                     </a>
                     <div class="dropdown-menu" style="border: 0;">
-                        <a class="dropdown-item font-size-1-5em" href="/contact">
+                        <a class="dropdown-item font-size-1-5em" href="{{ site.url }}{{ site.baseurl }}/contact">
                             Contact
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item font-size-1-5em" href="/jmts-doc">
+                        <a class="dropdown-item font-size-1-5em" href="{{ site.url }}{{ site.baseurl }}/jmts-doc">
                             JMTS User Guide
                         </a>
                     </div>
                 </li>
 
                 <li class="nav-item font-size-1-5em">
-                    <a class="nav-link" href="/blog">Blog</a>
+                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/blog">Blog</a>
                 </li>
 
             </ul>

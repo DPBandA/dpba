@@ -32,4 +32,5 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
 gem 'jekyll-redirect-from'
 gem 'jekyll-paginate-v2'
+gem 'jekyll-admin', group: :jekyll_plugins
 

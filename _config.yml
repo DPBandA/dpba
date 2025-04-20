@@ -51,4 +51,8 @@ defaults:
     values:
       image: "https://dpbennett.com.jm/assets/media/logo.png"
       description: "Welcome to the D P Bennett & Associates Ltd. website! We specialize in delivering cutting-edge engineering and information technology solutions."
-        
+
+jekyll_admin:
+  hidden_links:
+    - configuration
+  homepage: "pages"

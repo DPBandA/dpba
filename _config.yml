@@ -26,6 +26,10 @@ collections:
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -47,3 +51,4 @@ defaults:
     values:
       image: "https://dpbennett.com.jm/assets/media/logo.png"
       description: "Welcome to the D P Bennett & Associates Ltd. website! We specialize in delivering cutting-edge engineering and information technology solutions."
+        

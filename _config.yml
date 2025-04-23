@@ -31,19 +31,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-permalink: /:categories/:title/
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+permalink: pretty
+excerpt_separator: <!--more-->
 
 defaults:
   - scope:

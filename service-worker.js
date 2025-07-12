@@ -2,7 +2,7 @@ const CACHE_NAME = 'dpb-cache-v1';
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    '/offline.html',
+    '/offline',
     '/assets/css/font-awesome.min.css',
     '/assets/css/global.css',
     '/assets/css/responsive.css',
@@ -53,7 +53,7 @@ self.addEventListener('fetch', event => {
         return fetch(event.request).catch(() => {
           // Offline fallback for navigation requests
           if (event.request.mode === 'navigate') {
-            return caches.match('/offline.html');
+            return caches.match('/offline');
           }
           // For other requests, just fail silently or handle as needed
         });

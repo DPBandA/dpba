@@ -45,3 +45,8 @@ jekyll_admin:
   hidden_links:
     - configuration
   homepage: "pages"
+  
+include:
+  - service-worker.js
+  - assets/manifest.json
+  - assets/icons

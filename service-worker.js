@@ -1,8 +1,7 @@
-const CACHE_NAME = 'dpb-cache-v1';
+const CACHE = 'dpba-cache-v1';
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    '/offline.html',
     '/assets/css/font-awesome.min.css',
     '/assets/css/global.css',
     '/assets/css/responsive.css',
@@ -16,47 +15,14 @@ const FILES_TO_CACHE = [
     '/assets/icons/icon-512.png'
 ];
 
-// Install event - cache all specified files
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(FILES_TO_CACHE))
-      .then(() => self.skipWaiting())
-  );
+    event.waitUntil(
+            caches.open(CACHE).then(cache => cache.addAll(FILES_TO_CACHE))
+            );
 });
 
-// Activate event - remove old caches
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys()
-      .then(cacheNames =>
-        Promise.all(
-          cacheNames.filter(name => name !== CACHE_NAME)
-            .map(name => caches.delete(name))
-        )
-      )
-      .then(() => self.clients.claim())
-  );
-});
-
-// Fetch event - respond with cache first, then network, 
-// fallback to offline.html if navigation request fails
 self.addEventListener('fetch', event => {
-  if (event.request.method !== 'GET') return;
-
-  event.respondWith(
-    caches.match(event.request)
-      .then(cachedResponse => {
-        if (cachedResponse) {
-          return cachedResponse;
-        }
-        return fetch(event.request).catch(() => {
-          // Offline fallback for navigation requests
-          if (event.request.mode === 'navigate') {
-            return caches.match('/offline.html');
-          }
-          // For other requests, just fail silently or handle as needed
-        });
-      })
-  );
+    event.respondWith(
+            caches.match(event.request).then(response => response || fetch(event.request))
+            );
 });

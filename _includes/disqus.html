@@ -1,0 +1,40 @@
+<section id="disqus-container" class="disqus">
+    <div id="disqus_thread"></div>
+    <noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+    </noscript>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Only load Disqus when user scrolls near the container
+        var disqusLoaded = false;
+        var disqusContainer = document.getElementById("disqus-container");
+
+        function loadDisqus() {
+            if (disqusLoaded)
+                return;
+            var d = document, s = d.createElement('script');
+            s.src = 'https://news-brief.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            disqusLoaded = true;
+        }
+
+        window.addEventListener("scroll", function () {
+            if (!disqusLoaded) {
+                var rect = disqusContainer.getBoundingClientRect();
+                if (rect.top < window.innerHeight + 200) { // 200px before it enters view
+                    loadDisqus();
+                }
+            }
+        });
+
+        // Also load immediately if already in viewport (for short posts)
+        var rect = disqusContainer.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+            loadDisqus();
+        }
+    });
+</script>

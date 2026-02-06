@@ -11,6 +11,9 @@ address_line: Kingston
 country: Jamaica
 company_email: info@dpbennett.com.jm
 
+disqus:
+  username: news-brief
+
 # Social Links
 facebook_link: https://www.facebook.com/desmondpbennett/
 twitter_link: https://twitter.com/DPB_and_A
@@ -30,6 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
+  - jekyll-disqus
 
 permalink: pretty
 excerpt_separator: <!--more-->

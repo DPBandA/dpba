@@ -2,9 +2,10 @@
 
     {% include search-lunr.html %}
     <div class="hline"></div>
-    <h2  class="centred">Content</h2>
+    <h2  class="centred">Modules</h2>
     <ul class="list-group list-group-flush">
-        {% for doc in site.jmts-doc %}
+        {% assign sorted_docs = site.jmts-doc | sort: "order" %}
+        {% for doc in sorted_docs %}
         <li class="list-group-item">
             <h3  class="centred"><a href="{{ doc.url }}">{{ doc.short_title }}</a></h3> 
         </li>

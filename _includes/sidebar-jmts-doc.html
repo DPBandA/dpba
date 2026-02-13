@@ -1,8 +1,6 @@
-<div class="col-lg-4 mt-4">    
-
-    {% include search-lunr.html %}
-    <div class="hline"></div>
+<div class="col-lg-4 mt-4">  
     <h2  class="centred">Modules</h2>
+    <div class="hline"></div>
     <ul class="list-group list-group-flush">
         {% assign sorted_docs = site.jmts-doc | sort: "order" %}
         {% for doc in sorted_docs %}

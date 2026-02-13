@@ -15,6 +15,11 @@ const FILES_TO_CACHE = [
     '/assets/icons/icon-512.png'
 ];
 
+const urlsToCache = [
+  "/",
+  "/assets/css/style.css"
+];
+
 self.addEventListener('install', event => {
     event.waitUntil(
             caches.open(CACHE).then(cache => cache.addAll(FILES_TO_CACHE))

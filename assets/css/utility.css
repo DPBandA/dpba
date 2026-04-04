@@ -64,7 +64,7 @@
 
 .popular-posts li em {
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font-size: 1rem;
     color: #b3b3b3
 }
 
@@ -75,7 +75,7 @@
 
 .share i {
     padding-right: 15px;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 a.anchor{

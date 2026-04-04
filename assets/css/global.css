@@ -4,7 +4,7 @@
     --theme-text-long: #718096;
     --theme-color: #0081EB;
     --theme-color-hover: #0062B3;
-    --theme-section-bg: #F6F7FC;    
+    --theme-section-bg: #F6F7FC;
     --theme-gradient-color-1: blue;
     --theme-gradient-color-2: lightblue;
 }
@@ -20,14 +20,15 @@
 }
 
 html {
+    font-size: 10px;
     background-image: radial-gradient(#d3f0fd, white);
 }
 
 .centred {
-     text-align: center;
+    text-align: center;
 }
 
 .list-group-item {
-     background-image: radial-gradient(#d3f0fd, white);
-     border: none;
+    background-image: radial-gradient(#d3f0fd, white);
+    border: none;
 }

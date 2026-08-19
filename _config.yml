@@ -2,6 +2,7 @@
 title: D P Bennett & Associates
 description: This is the D P Bennett & Associates corporate website.
 baseurl: ""
+jmtsurl: "/jmts-user-guide"
 url: "https://dpbennett.com.jm"
 
 # Company Information
@@ -21,6 +22,8 @@ github_link: https://github.com/DPBandA
 
 collections:
   jmts-doc:
+      output: true
+  sc-doc:
       output: true    
 
 # Build settings

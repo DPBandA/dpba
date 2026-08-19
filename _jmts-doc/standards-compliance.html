@@ -1,0 +1,626 @@
+---
+layout: sc-doc-layout
+title: Standards Compliance(SC) Module.
+short_title: Standards Compliance
+author: Desmond Bennett
+description: Standards Compliance in JMTS manages standards compliance, legal metrology and foods inspectorate activities.
+date: 2026-08-18
+categories:
+- Job Management & Tracking System
+- Enterprise Resource Planning
+- Standards Compliance
+img: jmts/JMTSLogo.svg
+thumb: jmts/JMTSLogo.svg
+order: 3
+---
+
+<h1>Standards Compliance</h1>
+
+<h2>Overview</h2>
+
+<p>
+    The <strong>Standards Compliance (SC) module</strong> of JMTS is designed to support the
+    operational activities of regulatory authorities responsible for ensuring that businesses,
+    facilities, products, processes, and commercial activities comply with applicable laws,
+    regulations, standards, and technical requirements.
+</p>
+
+<p>
+    Although the module was originally developed to support the requirements of a specific
+    regulatory authority, its underlying design is generic. It can therefore be adapted to
+    different regulatory environments and organizational structures.
+</p>
+
+<p>
+    To understand the purpose of the Standards Compliance module, it is useful first to
+    understand how the activities of a regulatory authority are generally organized.
+</p>
+
+<h2>Regulatory Authorities</h2>
+
+<p>
+    A <strong>regulatory authority</strong> is an organization established by legislation or
+    other legal authority to administer and enforce requirements within a particular area of
+    public or economic activity.
+</p>
+
+<p>Depending on its mandate, a regulatory authority may be responsible for areas such as:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Consumer protection</li>
+    <li class="list-group-item">
+        &bullet; Product safety and quality</li>
+    <li class="list-group-item">
+        &bullet; Standards and technical regulations</li>
+    <li class="list-group-item">
+        &bullet; Legal metrology</li>
+    <li class="list-group-item">
+        &bullet; Food safety</li>
+    <li class="list-group-item">
+        &bullet; Trade and commercial practices</li>
+    <li class="list-group-item">
+        &bullet; Environmental protection</li>
+    <li class="list-group-item">
+        &bullet; Occupational or public safety</li>
+    <li class="list-group-item">
+        &bullet; Licensing and registration</li>
+    <li class="list-group-item">
+        &bullet; Inspection and enforcement</li>
+</ul>
+
+<p>
+    The specific mandate and organizational structure vary between jurisdictions. However,
+    many regulatory authorities perform a common set of activities involving
+    <strong>registration, inspection, monitoring, assessment, enforcement, and record
+        keeping</strong>.
+</p>
+
+<h2>Structure of a Regulatory Authority</h2>
+
+<p>
+    A regulatory authority will normally have a number of functional areas or
+    <strong>inspectorates</strong> responsible for particular aspects of its regulatory
+    mandate.
+</p>
+
+<p>For example, an authority may organize its operations into inspectorates or functional units responsible for:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Import and domestic commodities</li>
+    <li class="list-group-item">
+        &bullet; Product standards and certification</li>
+    <li class="list-group-item">
+        &bullet; Factory or facility inspection</li>
+    <li class="list-group-item">
+        &bullet; Legal metrology</li>
+    <li class="list-group-item">
+        &bullet; Food inspection</li>
+    <li class="list-group-item">
+        &bullet; Market surveillance</li>
+    <li class="list-group-item">
+        &bullet; Licensing and registration</li>
+    <li class="list-group-item">
+        &bullet; Complaints and investigations</li>
+    <li class="list-group-item">
+        &bullet; Enforcement</li>
+</ul>
+
+<p>
+    The names and boundaries of these units may differ between authorities. What is important
+    from an information-system perspective is the <strong>regulatory activity being
+        performed</strong>, rather than the organizational name assigned to the unit.
+</p>
+
+<p>
+    JMTS therefore models regulatory operations around activities, records, and workflows
+    that can be configured to suit the structure of a particular authority.
+</p>
+
+<h2>Core Regulatory Activities</h2>
+
+<p>
+    Although regulatory mandates differ, the work of a regulatory authority commonly revolves
+    around several interconnected activities.
+</p>
+
+<h3>Registration</h3>
+
+<p>
+    Regulated businesses, organizations, facilities, products, or other entities may be
+    required to register with the authority before conducting regulated activities.
+</p>
+
+<p>
+    Registration establishes the regulatory identity of the entity and provides the authority
+    with information required for subsequent monitoring and enforcement.
+</p>
+
+<p>A registration record may include information such as:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Registered entity</li>
+    <li class="list-group-item">
+        &bullet; Business or facility information</li>
+    <li class="list-group-item">
+        &bullet; Owners or responsible persons</li>
+    <li class="list-group-item">
+        &bullet; Location</li>
+    <li class="list-group-item">
+        &bullet; Type of regulated activity</li>
+    <li class="list-group-item">
+        &bullet; Products or commodities handled</li>
+    <li class="list-group-item">
+        &bullet; Registration status</li>
+    <li class="list-group-item">
+        &bullet; Registration date</li>
+    <li class="list-group-item">
+        &bullet; Expiry or renewal date</li>
+    <li class="list-group-item">
+        &bullet; Applicable regulatory requirements</li>
+</ul>
+
+<p>
+    Registration provides the foundation for maintaining a reliable population of regulated
+    entities.
+</p>
+
+<h3>Inspection</h3>
+
+<p>
+    Inspection is the systematic examination of a business, facility, product, process,
+    equipment, documentation, or other regulated activity to determine whether applicable
+    requirements are being satisfied.
+</p>
+
+<p>Inspections may be:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Routine</li>
+    <li class="list-group-item">
+        &bullet; Scheduled</li>
+    <li class="list-group-item">
+        &bullet; Risk-based</li>
+    <li class="list-group-item">
+        &bullet; Follow-up</li>
+    <li class="list-group-item">
+        &bullet; Complaint-driven</li>
+    <li class="list-group-item">
+        &bullet; Triggered by a particular event</li>
+    <li class="list-group-item">
+        &bullet; Conducted as part of an application or registration process</li>
+</ul>
+
+<p>
+    An inspection normally produces a record of what was examined, what was observed, the
+    requirements assessed, any deficiencies identified, and the actions required.
+</p>
+
+<h3>Product Inspection</h3>
+
+<p>
+    Product inspection involves examining products or commodities to determine whether they
+    comply with applicable standards, specifications, labeling requirements, or other
+    regulatory requirements.
+</p>
+
+<p>Depending on the regulatory mandate, this may include:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Physical examination</li>
+    <li class="list-group-item">
+        &bullet; Verification of labeling</li>
+    <li class="list-group-item">
+        &bullet; Verification of quantity or dimensions</li>
+    <li class="list-group-item">
+        &bullet; Examination of packaging</li>
+    <li class="list-group-item">
+        &bullet; Sampling</li>
+    <li class="list-group-item">
+        &bullet; Laboratory testing</li>
+    <li class="list-group-item">
+        &bullet; Comparison with applicable standards</li>
+    <li class="list-group-item">
+        &bullet; Verification of supporting documentation</li>
+</ul>
+
+<p>
+    The outcome may be a determination that the product is compliant, non-compliant, or
+    requires further assessment.
+</p>
+
+<h3>Factory or Facility Inspection</h3>
+
+<p>
+    A factory or facility inspection assesses the conditions, processes, equipment,
+    documentation, and practices associated with the production, handling, or distribution
+    of regulated products or services.
+</p>
+
+<p>An inspection may examine areas such as:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Premises</li>
+    <li class="list-group-item">
+        &bullet; Equipment</li>
+    <li class="list-group-item">
+        &bullet; Production processes</li>
+    <li class="list-group-item">
+        &bullet; Storage</li>
+    <li class="list-group-item">
+        &bullet; Sanitation</li>
+    <li class="list-group-item">
+        &bullet; Quality-control procedures</li>
+    <li class="list-group-item">
+        &bullet; Documentation</li>
+    <li class="list-group-item">
+        &bullet; Personnel practices</li>
+    <li class="list-group-item">
+        &bullet; Safety requirements</li>
+    <li class="list-group-item">
+        &bullet; Compliance with applicable standards</li>
+</ul>
+
+<p>
+    The findings provide evidence for determining the compliance status of the facility.
+</p>
+
+<h3>Entry Document Inspection</h3>
+
+<p>
+    Regulatory authorities may receive import or other commercial documentation from customs
+    or another government agency for regulatory review.
+</p>
+
+<p>
+    <strong>Entry Document Inspection</strong> involves examining information contained in
+    documents such as manifests, declarations, or other entry records and determining whether
+    the goods or transactions represented by those documents require regulatory action.
+</p>
+
+<p>The activity may include:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Identifying regulated commodities</li>
+    <li class="list-group-item">
+        &bullet; Verifying descriptions and quantities</li>
+    <li class="list-group-item">
+        &bullet; Identifying importers or other responsible parties</li>
+    <li class="list-group-item">
+        &bullet; Checking regulatory requirements</li>
+    <li class="list-group-item">
+        &bullet; Determining whether inspection is required</li>
+    <li class="list-group-item">
+        &bullet; Recording the regulatory disposition</li>
+</ul>
+
+<p>
+    This provides an important link between border controls and subsequent regulatory
+    inspection activities.
+</p>
+
+<h3>Complaint Management</h3>
+
+<p>
+    Members of the public, businesses, or other stakeholders may submit complaints concerning
+    potentially non-compliant products, businesses, or activities.
+</p>
+
+<p>A regulatory authority may investigate complaints by:</p>
+
+<ol class="list-group">
+    <li class="list-group-item">
+        &bullet; Recording the complaint</li>
+    <li class="list-group-item">
+        &bullet; Assessing its nature and priority</li>
+    <li class="list-group-item">
+        &bullet; Assigning the matter for investigation</li>
+    <li class="list-group-item">
+        &bullet; Conducting inspections or other investigations</li>
+    <li class="list-group-item">
+        &bullet; Recording findings</li>
+    <li class="list-group-item">
+        &bullet; Taking appropriate regulatory action</li>
+    <li class="list-group-item">
+        &bullet; Closing the complaint when the matter has been resolved or otherwise disposed of</li>
+</ol>
+
+<p>
+    Complaints can therefore become an important source of regulatory intelligence and may
+    trigger inspection or enforcement activities.
+</p>
+
+<h2>Compliance Assessment</h2>
+
+<p>
+    The information collected through registration, inspection, testing, investigation, and
+    other regulatory activities is used to assess compliance.
+</p>
+
+<p>A compliance assessment may result in classifications such as:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Compliant</li>
+    <li class="list-group-item">
+        &bullet; Non-compliant</li>
+    <li class="list-group-item">
+        &bullet; Partially compliant</li>
+    <li class="list-group-item">
+        &bullet; Pending further investigation</li>
+    <li class="list-group-item">
+        &bullet; Requires corrective action</li>
+</ul>
+
+<p>
+    The exact classifications depend on the regulatory authority's legislation, policies,
+    and procedures.
+</p>
+
+<p>
+    Where non-compliance is identified, the authority may require corrective action within a
+    specified period or take other measures permitted by its legal mandate.
+</p>
+
+<h2>Enforcement and Corrective Action</h2>
+
+<p>
+    Inspection and compliance activities are not normally ends in themselves. Their purpose
+    is to promote and enforce compliance with applicable requirements.
+</p>
+
+<p>
+    Depending on the seriousness and nature of a violation, regulatory action may include:
+</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Corrective action requests</li>
+    <li class="list-group-item">
+        &bullet; Warnings</li>
+    <li class="list-group-item">
+        &bullet; Follow-up inspections</li>
+    <li class="list-group-item">
+        &bullet; Product detention or withdrawal</li>
+    <li class="list-group-item">
+        &bullet; Suspension or cancellation of registration</li>
+    <li class="list-group-item">
+        &bullet; Seizure or other legal measures</li>
+    <li class="list-group-item">
+        &bullet; Referral for prosecution</li>
+    <li class="list-group-item">
+        &bullet; Administrative penalties</li>
+    <li class="list-group-item">
+        &bullet; Other enforcement actions authorized by law</li>
+</ul>
+
+<p>
+    A regulatory information system should maintain an auditable connection between the
+    original finding, the required corrective action, and the eventual resolution.
+</p>
+
+<h2>Regulatory Records</h2>
+
+<p>
+    Effective regulation depends heavily on reliable records.
+</p>
+
+<p>A regulatory authority may need to maintain information about:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Regulated entities</li>
+    <li class="list-group-item">
+        &bullet; Registrations</li>
+    <li class="list-group-item">
+        &bullet; Facilities</li>
+    <li class="list-group-item">
+        &bullet; Products</li>
+    <li class="list-group-item">
+        &bullet; Inspections</li>
+    <li class="list-group-item">
+        &bullet; Inspection findings</li>
+    <li class="list-group-item">
+        &bullet; Samples</li>
+    <li class="list-group-item">
+        &bullet; Laboratory results</li>
+    <li class="list-group-item">
+        &bullet; Complaints</li>
+    <li class="list-group-item">
+        &bullet; Violations</li>
+    <li class="list-group-item">
+        &bullet; Corrective actions</li>
+    <li class="list-group-item">
+        &bullet; Enforcement actions</li>
+    <li class="list-group-item">
+        &bullet; Certificates and permits</li>
+    <li class="list-group-item">
+        &bullet; Payments and fees</li>
+    <li class="list-group-item">
+        &bullet; Correspondence</li>
+    <li class="list-group-item">
+        &bullet; Regulatory decisions</li>
+</ul>
+
+<p>
+    These records should be connected so that an authorized officer can obtain a complete
+    picture of an entity's regulatory history.
+</p>
+
+<p>
+    For example, an inspection should be traceable to the regulated entity, facility, or
+    product involved; the inspector who performed it; the findings recorded; any samples or
+    documents associated with it; and any subsequent corrective or enforcement action.
+</p>
+
+<h2>Regulatory Workflow</h2>
+
+<p>
+    Regulatory activities are generally interconnected rather than isolated.
+</p>
+
+<p>A typical regulatory workflow might look like:</p>
+
+<pre><code>Registration
+     ↓
+Inspection
+     ↓
+Findings
+     ↓
+Compliance Assessment
+     ↓
+Corrective Action
+     ↓
+Follow-up
+     ↓
+Closure</code></pre>
+
+<p>
+    Other events can enter the workflow at different points.
+</p>
+
+<p>For example:</p>
+
+<pre><code>Import Documentation
+        ↓
+Regulatory Review
+        ↓
+Inspection
+        ↓
+Compliance Assessment</code></pre>
+
+<p>Or:</p>
+
+<pre><code>Complaint
+    ↓
+Investigation
+    ↓
+Inspection
+    ↓
+Findings
+    ↓
+Enforcement Action</code></pre>
+
+<p>
+    The ability to connect these activities provides regulatory authorities with a more
+    complete and reliable view of compliance.
+</p>
+
+<h2>Risk-Based Regulation</h2>
+
+<p>
+    Modern regulatory authorities increasingly use <strong>risk-based approaches</strong>
+    to determine where inspection and enforcement resources should be concentrated.
+</p>
+
+<p>
+    Rather than treating every regulated entity or product identically, an authority may
+    consider factors such as:
+</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Previous compliance history</li>
+    <li class="list-group-item">
+        &bullet; Nature of the regulated activity</li>
+    <li class="list-group-item">
+        &bullet; Type of product</li>
+    <li class="list-group-item">
+        &bullet; Volume of trade</li>
+    <li class="list-group-item">
+        &bullet; Severity of potential harm</li>
+    <li class="list-group-item">
+        &bullet; Frequency of violations</li>
+    <li class="list-group-item">
+        &bullet; Results of previous inspections</li>
+    <li class="list-group-item">
+        &bullet; Complaints</li>
+    <li class="list-group-item">
+        &bullet; Intelligence from other regulatory activities</li>
+</ul>
+
+<p>
+    This information can be used to prioritize inspections and allocate limited regulatory
+    resources more effectively.
+</p>
+
+<p>
+    A regulatory information system can support this approach by maintaining historical data
+    and making it available for analysis and operational decision-making.
+</p>
+
+<h2>The Role of Information Systems</h2>
+
+<p>
+    The work of a regulatory authority generates a substantial amount of operational
+    information. Managing that information effectively is essential for consistent,
+    transparent, and efficient regulation.
+</p>
+
+<p>A regulatory management system should help an authority to:</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        &bullet; Maintain accurate records of regulated entities</li>
+    <li class="list-group-item">
+        &bullet; Plan and assign regulatory activities</li>
+    <li class="list-group-item">
+        &bullet; Record inspection results</li>
+    <li class="list-group-item">
+        &bullet; Track non-compliance</li>
+    <li class="list-group-item">
+        &bullet; Manage corrective actions</li>
+    <li class="list-group-item">
+        &bullet; Monitor enforcement activities</li>
+    <li class="list-group-item">
+        &bullet; Maintain regulatory histories</li>
+    <li class="list-group-item">
+        &bullet; Generate reports and statistics</li>
+    <li class="list-group-item">
+        &bullet; Support management decision-making</li>
+    <li class="list-group-item">
+        &bullet; Provide an audit trail of regulatory activities</li>
+</ul>
+
+<p>
+    The system should also reduce duplication of data entry and allow information collected
+    during one regulatory activity to be reused in subsequent activities.
+</p>
+
+<h2>Standards Compliance in JMTS</h2>
+
+<p>
+    The <strong>JMTS Standards Compliance module</strong> is designed around this general
+    regulatory operating model.
+</p>
+
+<p>
+    Rather than being limited to a particular regulatory organization, the module provides
+    a framework within which a regulatory authority can manage its regulated entities,
+    regulatory activities, inspections, findings, compliance information, and related
+    records.
+</p>
+
+<p>
+    The module is intended to support the complete regulatory lifecycle &mdash; from
+    identifying and registering regulated entities, through inspection and compliance
+    assessment, to corrective action, follow-up, and closure.
+</p>
+
+<p>
+    The specific activities, forms, requirements, classifications, and workflows can be
+    adapted to reflect the legislation, standards, policies, and operating procedures of
+    the implementing authority.
+</p>
+
+<p>
+    The following sections of this documentation describe the principal capabilities of the
+    <strong>JMTS Standards Compliance module</strong> and how they can be used to support
+    regulatory operations.
+</p>

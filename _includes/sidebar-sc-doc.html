@@ -1,0 +1,12 @@
+<div class="col-lg-4 mt-4">  
+    <h2  class="centred">Sections</h2>
+    <div class="hline"></div>
+    <ul class="list-group list-group-flush">
+        {% assign sorted_docs = site.sc-doc | sort: "order" %}
+        {% for doc in sorted_docs %}
+        <li class="list-group-item">
+            <h3  class="centred"><a href="{{ doc.url }}">{{ doc.short_title }}</a></h3> 
+        </li>
+        {% endfor %}
+    </ul>
+</div>

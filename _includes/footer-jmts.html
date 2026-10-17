@@ -45,18 +45,17 @@
         <div class="social">
             <h2>Social</h2>
             <ul>
-                {% if site.twitter_link %}
-                <a href="{{ site.twitter_link }}" target="_blank">
+                 {% if site.twitter_link %}
+                <a href="{{ site.twitter_link }}" target="_blank" rel="noopener noreferrer">
                     <li><i class="bi bi-twitter"></i>Twitter (X)</li>
                 </a>
                 {% endif %}
 
-                {% if site.facebook_link %}
-                <a href="{{ site.facebook_link }}" target="_blank"">
-                    <li><i class="bi bi-facebook"></i>facebook</li>
-                </a>
-                {% endif %}                
-
+                {% if site.linkedin_link %}
+                <a href="{{ site.linkedin_link }}" target="_blank" rel="noopener noreferrer">
+                    <li><i class="bi bi-linkedin"></i> LinkedIn</li>
+                </a> 
+                {% endif %}
             </ul>
         </div>
 
